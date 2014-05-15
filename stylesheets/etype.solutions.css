@@ -1,0 +1,61 @@
+/*============= FONTS ==================*/
+/*============= COLORS ==================*/
+/*============= LAYOUT ==================*/
+.container { width: 980px; padding: 0; }
+
+/*============= DEFAULTS ================*/
+html, body { overflow-x: hidden; }
+
+h2 { text-align: center; }
+
+/*============= MIXINS ==================*/
+/*============= HELPERS ==================*/
+.push-right { margin-right: -30px; }
+
+.push-left { margin-left: -15px; }
+
+.black { color: #000000; }
+.black:hover { color: #000000; }
+
+.orange { color: #f6b42c; }
+.orange:hover { color: #f6b42c; }
+
+.center-box { padding: 25px; text-align: center; }
+
+.text-link { text-decoration: none; cursor: pointer; }
+.text-link:hover { text-decoration: underline; }
+
+.menu-link { -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; transition: color 0.2s ease-out; }
+
+.page-title { font: 99px "ChunkFive"; color: #f6b42c; text-align: center; }
+
+p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
+
+p.page-text.first:first-letter { font-size: 3em; float: left; }
+
+p.page-text-small { font-size: 14px; }
+
+div.element1 { width: 683px; height: 1019px; position: absolute; right: -40px; top: 150px; background: url("../images/solution_element.png") no-repeat; }
+@media screen and (max-width: 1700px) { div.element1 { right: -150px; } }
+@media screen and (max-width: 1500px) { div.element1 { right: -200px; } }
+@media screen and (max-width: 1400px) { div.element1 { right: -300px; } }
+@media screen and (max-width: 1300px) { div.element1 { right: -500px; } }
+
+ul.solutions-star-points li { margin: 0 0 10px 15px; }
+
+div.solution-slogan { font: 41px "ChunkFive"; color: #000000; }
+
+div.solution-box div.solution-icon { text-align: center; margin-right: auto; margin-left: auto; padding: 15px 0 7px 0; }
+
+div.solution-name1 { height: 30px; font: 24px "MuseoSlab"; color: #63a69f; text-align: center; margin: 0px 0 10px 0; }
+
+div.solution-desc1 { font: 16px "MuseoSlab"; color: #50616c; text-align: center; height: 110px; }
+
+div.learn-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: background-color 0.15s ease-out; -moz-transition: background-color 0.15s ease-out; -o-transition: background-color 0.15s ease-out; transition: background-color 0.15s ease-out; }
+div.learn-more.active { background-color: #ebede4; border: none; cursor: default; }
+
+div.learn-more-filler { width: 140px; height: 15px; margin-right: auto; margin-left: auto; background-color: transparent; -webkit-transition: background-color 0.15s ease-out; -moz-transition: background-color 0.15s ease-out; -o-transition: background-color 0.15s ease-out; transition: background-color 0.15s ease-out; }
+
+div.learn-more-filler-active { background-color: #ebede4; }
+
+div.solution-learn-info div.learn-more-text { background-color: #ebede4; width: 919px; height: 130px; font: 16px "MuseoSlab"; color: #50616c; text-align: center; margin-right: auto; margin-left: auto; padding: 20px; margin-top: -2px; }

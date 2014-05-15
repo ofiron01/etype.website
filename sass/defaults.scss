@@ -1,0 +1,130 @@
+@import "compass/css3";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+
+
+
+$PRODUCTION: false;
+
+/*============= FONTS ==================*/
+
+$MUSEO_SLAB: "MuseoSlab";
+$LOBSTER: "Lobster";
+$CHUNK_FIVE: "ChunkFive";
+
+/*============= COLORS ==================*/
+
+$SITE_ORANGE: #f6b42c;
+$NAV_TEXT_COLOLR: #000000;
+$NAV_TEXT_COLOLR_CURRENT: #ffffff;
+$FOOTER_YELLOW: #f2e1ac;
+$SITE_BODY_TEXT: #50616c;
+$NAV_TEXT_COLOR_HOVER:  $SITE_ORANGE;
+$NAV_TEXT_BG_COLOR_CURRENT:  $SITE_ORANGE;
+
+/*============= LAYOUT ==================*/
+
+$SITE_WIDTH: 980px;
+
+.container {
+  width:$SITE_WIDTH;
+  padding: 0;
+
+}
+
+/*============= DEFAULTS ================*/
+
+html, body {
+  overflow-x: hidden;
+}
+h2 {
+  text-align: center;
+}
+
+/*============= MIXINS ==================*/
+
+@mixin push-left {
+  margin-right: -30px;
+}
+
+@mixin push-right {
+  margin-left:-10px;
+  margin-right:20px;
+}
+
+@mixin text-link {
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+
+}
+
+/*============= HELPERS ==================*/
+.push-right {
+  margin-right: -30px;
+}
+
+.push-left {
+  margin-left: -15px;
+}
+
+.black {
+  color:#000000;
+  &:hover {
+    color:#000000;
+  }
+}
+
+.orange {
+  color: $SITE_ORANGE;
+  &:hover {
+    color:$SITE_ORANGE;
+  }
+}
+
+
+.center-box {
+  padding: 25px;
+  text-align: center;
+}
+.text-link {
+  @include text-link;
+}
+
+.menu-link {
+  @include transition( color .2s ease-out );
+}
+
+.page-title {
+  font: 99px $CHUNK_FIVE;
+  color:$SITE_ORANGE;
+  text-align: center;
+}
+
+
+p.page-text {
+  text-align: justify;
+  font: 16px $MUSEO_SLAB;
+  color:$SITE_BODY_TEXT;
+}
+p.page-text.first:first-letter {
+  font-size: 3em;
+  float: left;
+}
+
+p.page-text-small {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+

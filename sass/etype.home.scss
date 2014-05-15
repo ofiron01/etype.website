@@ -1,0 +1,168 @@
+@import "compass/css3";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "recipes/background";
+@import "defaults";
+
+/* ===================== SLOGAN =====================*/
+div.slogan {
+  line-height: 10px;
+  height: 300px;
+  width: $SITE_WIDTH;
+  background: url("../images/hp_slogan.png") no-repeat;
+}
+
+
+.hp-box1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  div.col-md-4 {
+    @include push-right;
+    font: 16px $MUSEO_SLAB, Arial, sans-serif;
+    color:$SITE_BODY_TEXT;
+
+  }
+  div.col-md-8 {
+    @include push-left;
+  }
+
+  div.how-it-works {
+    width: 318px;
+    height: 165px;
+    background: url(../images/hp_plate1.png) no-repeat;
+    cursor: pointer;
+  }
+}
+
+.hp-box2 {
+
+  position: relative;
+  div {
+    background-color: #e3e2e2;
+    @if $PRODUCTION {@include background-noise(0.1,0.1,500,false);}
+    padding: 0;
+    height: 443px;
+  }
+
+  div.saw {
+    width: $SITE_WIDTH;
+    height: 10px;
+    background: url("../images/hp_middle_bg_top.png") no-repeat;
+  }
+
+  div.saw-bottom {
+    @include transform(rotate(180deg));
+
+  }
+
+  a {
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color:#000000;
+      text-decoration: none;
+    }
+  }
+
+
+  a {
+    position: absolute;
+    display: block;
+    width: 225px;
+    height: 224px;
+
+    &:hover {
+      @include scale(1.05);
+    }
+
+
+  }
+  a.hp_stamp1 {
+    background: url("../images/hp_stamp1.png") no-repeat;
+    top:30px;
+    left:100px;
+  }
+
+  a.hp_icon1 {
+    background: url("../images/hp_icon1.png") no-repeat;
+    left:400px;
+    top:70px;
+  }
+  a.hp_icon2 {
+    background: url("../images/hp_icon2.png") no-repeat;
+    left:680px;
+    top:58px;
+  }
+  a.hp_icon3 {
+    background: url("../images/hp_icon3.png") no-repeat;
+    left:250px;
+    top:260px;
+
+  }
+  a.hp_icon4 {
+    background: url("../images/hp_icon4.png") no-repeat;
+    left:550px;
+    top:260px;
+  }
+
+  span.hp-icon {
+    font: 22px $MUSEO_SLAB;
+    color:#000000;
+    text-decoration: none;
+    position: absolute;
+
+  }
+
+  span.hp-icon-0 {
+    font-size: 14px;
+    text-align: center;
+    width: 170px;
+    margin:90px 0 0 30px;
+  }
+  span.hp-icon-0-2 {
+    font-size: 14px;
+    text-align: center;
+    width: 170px;
+    margin:170px 0 0 30px;
+    color:#ffffff;
+  }
+
+  span.hp-icon-1 {
+    margin:80px 0 0 50px;
+  }
+
+  span.hp-icon-2 {
+    margin:95px 0 0 55px;
+  }
+
+  span.hp-icon-3 {
+    margin:95px 0 0 80px;
+  }
+
+  span.hp-icon-4 {
+    margin:95px 0 0 70px;
+  }
+
+}
+.hp-box3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+  div.hp-clients-logos {
+    width: 562px;
+    height: 191px;
+    background: url("../images/hp_clients.png") no-repeat;
+    margin-right:90px;
+
+  }
+
+  div.col-md-4 p {
+    text-wrap: normal;
+    text-align: justify;
+    margin-right:-18px;
+
+  }
+}

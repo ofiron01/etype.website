@@ -1,0 +1,59 @@
+/*============= FONTS ==================*/
+/*============= COLORS ==================*/
+/*============= LAYOUT ==================*/
+.container { width: 980px; padding: 0; }
+
+/*============= DEFAULTS ================*/
+html, body { overflow-x: hidden; }
+
+h2 { text-align: center; }
+
+/*============= MIXINS ==================*/
+/*============= HELPERS ==================*/
+.push-right { margin-right: -30px; }
+
+.push-left { margin-left: -15px; }
+
+.black { color: #000000; }
+.black:hover { color: #000000; }
+
+.orange { color: #f6b42c; }
+.orange:hover { color: #f6b42c; }
+
+.center-box { padding: 25px; text-align: center; }
+
+.text-link { text-decoration: none; cursor: pointer; }
+.text-link:hover { text-decoration: underline; }
+
+.menu-link { -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; transition: color 0.2s ease-out; }
+
+.page-title { font: 99px "ChunkFive"; color: #f6b42c; text-align: center; }
+
+p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
+
+p.page-text.first:first-letter { font-size: 3em; float: left; }
+
+p.page-text-small { font-size: 14px; }
+
+/* ===================== MAIN =====================*/
+body { background-color: #ffffff; }
+
+/* ===================== TOP ITEMS =================*/
+div.hr { width: 980px; height: 1px; border-bottom: 1px solid #b1c2b3; top: 75px; position: absolute; }
+
+div.topsite { background-color: #ebede4; }
+
+/* ===================== NAVBAR ITEMS ===============*/
+ul.navbar-nav li a { color: black; font-weight: bold; font-size: 18px; height: 92px; font-family: "ChunkFive"; cursor: pointer; }
+ul.navbar-nav li a.current { background-position: 0; color: white; font-weight: normal; background: url(../images/navbar_selected_bg.png); -webkit-background-size: 100% 92px; -moz-background-size: 100% 92px; -o-background-size: 100% 92px; background-size: 100% 92px; cursor: default; }
+ul.navbar-nav li a:hover:not(.current) { background-color: transparent; color: #f6b42c; }
+
+div.footer { padding-top: 50px; background-color: #f6b42c; height: 300px; }
+div.footer div.container div span.footer-title { font-size: 45px; color: #f2e1ac; font: "ChunkFive", Arail, sans-serif; }
+div.footer div.container ul.sitemap { margin: 0; padding: 0; list-style-type: none; width: 270px; border-right: thin solid #000000; }
+div.footer div.container ul.sitemap li { display: inline; }
+div.footer div.container ul.sitemap li a { color: #000000; font-size: 18px; font-weight: bold; }
+div.footer div.container ul.sitemap li a:hover { color: #000000; }
+div.footer div.container div.footer-note { padding: 40px 0 7px 0; text-align: center; border-bottom: thin solid #000000; font: 16px "MuseoSlab"; }
+div.footer div.container div.footer-note span.footer-bullet { color: #f2e1ac; }
+div.footer div.container div.footer-close { padding: 20px 0 20px 0; }

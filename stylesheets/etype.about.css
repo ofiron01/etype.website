@@ -1,0 +1,41 @@
+/*============= FONTS ==================*/
+/*============= COLORS ==================*/
+/*============= LAYOUT ==================*/
+.container { width: 980px; padding: 0; }
+
+/*============= DEFAULTS ================*/
+html, body { overflow-x: hidden; }
+
+h2 { text-align: center; }
+
+/*============= MIXINS ==================*/
+/*============= HELPERS ==================*/
+.push-right { margin-right: -30px; }
+
+.push-left { margin-left: -15px; }
+
+.black { color: #000000; }
+.black:hover { color: #000000; }
+
+.orange { color: #f6b42c; }
+.orange:hover { color: #f6b42c; }
+
+.center-box { padding: 25px; text-align: center; }
+
+.text-link { text-decoration: none; cursor: pointer; }
+.text-link:hover { text-decoration: underline; }
+
+.menu-link { -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; transition: color 0.2s ease-out; }
+
+.page-title { font: 99px "ChunkFive"; color: #f6b42c; text-align: center; }
+
+p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
+
+p.page-text.first:first-letter { font-size: 3em; float: left; }
+
+p.page-text-small { font-size: 14px; }
+
+div.our-clients { padding: 35px; text-align: center; font: 41px "ChunkFive"; }
+
+div.client-testimon { padding-bottom: 20px; }
+div.client-testimon img { vertical-align: middle; }

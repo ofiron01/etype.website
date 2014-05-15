@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="eTypeWebsite" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="eTypeWebsite" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="eTypeWebsite" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="eTypeWebsite" class="no-js" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>E TYPE</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="stylesheets/screen.css"/>
+  <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.fonts.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.main.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.home.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.about.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.solutions.css"/>
+</head>
+<body ng-controller="MainCtrl">
+    <div class="topsite">
+    <div class="container">
+        <div class="navbar">
+            <div class="hr"></div>
+            <a href="http://www.etype.co.il"><img width="181" height="67" alt="ETYPE" src="images/logo_top.png"/></a>
+            <ul class="nav navbar-nav pull-right">
+                <li ng-repeat="page in pages"><a class="menu-link" ng-class="{'current': currentPage==page.navURL}" ng-click="navigateTo(page)">{{page.navTitle}}</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div ng-view></div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="col-xs-4">
+                <span class="footer-title">site map</span>
+                <ul class="sitemap">
+                    <li ng-repeat="page in pages"><a class="text-link black" ng-click="navigateTo(page)">{{page.navTitle}}</a>
+                        <span ng-show="$index < pages.length-1"> | </span></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <span class="footer-title">our solutions</span>
+                <ul class="sitemap">
+                    <li ng-repeat="solution in solutions"><a class="text-link black" ng-click="navigateTo(solution)">{{solution.navTitle}}</a>
+                        <span ng-show="$index < solutions.length-1"> | </span></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                 <div style="position: absolute; margin-right:-30px">
+                     <img src="images/hp_stamp2.png"/>
+                     <img src="images/hp_stamp3.png"/>
+                 </div>
+            </div>
+        </div>
+        <div class="container" style="width: 980px !important;">
+            <div class="footer-note">Haofan str. 5, Kiryat Arie, Petah Tiqwa
+                <span class="footer-bullet">&#x25cf;</span> tel: 03-9223490
+                <span class="footer-bullet">&#x25cf;</span> e-mail: <a href="mailto:info@etype.com" class="text-link black">info@etype.com</a>
+            </div>
+            <div class="footer-close">
+                <div class="col-xs-6 push-left">
+                    <a target="_blank" href="http://www.thefigura.com">
+                        <img alt="Designed by TheFigura.com" src="images/hp_figura_logo.png"/>
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <span class="pull-right push-right">All Rights Reserved  |  eType  |  2014</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+</body>
+</html>

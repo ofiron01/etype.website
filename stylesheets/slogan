@@ -1,0 +1,56 @@
+/*  div.ornament {
+      width: 272px;
+      height: 9px;
+      position: absolute;
+      left:50%;
+      margin-left:-136px;
+      margin-bottom: 50px;
+    }
+
+    span.w1 {
+      width: 400px;
+      font: 128px $CHUNK_FIVE, Arial, sans-serif;
+      color: #000000;
+    }
+    span.w2 {
+      font: 49px $MUSEO_SLAB, Courier New, sans-serif;
+      color: $SITE_ORANGE;
+      position: absolute;
+      margin:20px 0 0 10px;
+    }
+    span.w3 {
+      font: 33px $LOBSTER, Arial, sans-serif;
+      text-decoration: underline;
+      color: #000000;
+      position: absolute;
+      margin:30px 0 0 160px;
+    }
+    span.w4 {
+      font: 35px $MUSEO_SLAB, Courier New, sans-serif;
+      color: #000000;
+      margin: 0 0 0 10px;
+    }
+    span.w5 {
+      width: 400px;
+      font: 99px $CHUNK_FIVE, Arial, sans-serif;
+      color: $SITE_ORANGE;
+    }
+    span.w6 {
+      font: 60px $CHUNK_FIVE, Arial, sans-serif;
+      color: #000000;
+    }
+    span.w7 {
+      font: bold 69px $MUSEO_SLAB, Courier New, sans-serif;
+      color: $SITE_ORANGE;
+    }
+    span.w8 {
+      font: 33px $LOBSTER, Arial, sans-serif;
+      text-decoration: underline;
+      color: #000000;
+      vertical-align: 20px;
+    }
+    span.w9 {
+      font: 66px $MUSEO_SLAB, Courier New, sans-serif;
+      color: $SITE_ORANGE;
+      text-spacing: 2px;
+    }*/

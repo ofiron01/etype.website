@@ -1,0 +1,114 @@
+@import "compass/css3";
+@import "recipes/background";
+@import "defaults";
+
+$break-small: 1700px;
+
+div.element1 {
+  width: 683px;
+  height: 1019px;
+  position: absolute;
+  right:-40px;
+  top: 150px;
+  background: url("../images/solution_element.png") no-repeat;
+
+
+  @media screen and (max-width: $break-small) {
+    right:-150px;
+  }
+  @media screen and (max-width: $break-small - 200) {
+    right:-200px;
+  }
+  @media screen and (max-width: $break-small - 300) {
+    right:-300px;
+  }
+  @media screen and (max-width: $break-small - 400) {
+    right:-500px;
+  }
+
+}
+
+ul.solutions-star-points li {
+  margin: 0 0 10px 15px;
+}
+
+div.solution-slogan {
+  font: 41px $CHUNK_FIVE;
+  color:#000000;
+}
+
+div.solution-box {
+  div.solution-icon {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 0 7px 0;
+  }
+}
+
+div.solution-name1 {
+
+  height: 30px;
+  font: 24px $MUSEO_SLAB;
+  color: #63a69f;
+  text-align: center;
+  margin: 0px 0 10px 0;
+}
+
+div.solution-desc1 {
+
+  font: 16px $MUSEO_SLAB;
+  color: $SITE_BODY_TEXT;
+  text-align: center;
+  height: 110px;
+}
+
+div.learn-more {
+  color:#63a69f;
+  font: 14px $MUSEO_SLAB;
+  border-top: thin solid #63a69f;
+  border-bottom: thin solid #63a69f;
+  width: 140px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  cursor: pointer;
+  @include transition(background-color 0.15s ease-out);
+
+  &.active {
+    background-color: #ebede4;
+    border: none;
+    cursor: default;
+  }
+}
+
+div.learn-more-filler {
+  width: 140px;
+  height: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:transparent;
+  @include transition(background-color 0.15s ease-out);
+}
+
+div.learn-more-filler-active {
+  background-color: #ebede4;
+}
+
+
+div.solution-learn-info {
+
+  div.learn-more-text {
+    background-color: #ebede4;
+    width: 919px;
+    height: 130px;   //50616c
+    font: 16px $MUSEO_SLAB;
+    color: $SITE_BODY_TEXT;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: -2px;
+  }
+}

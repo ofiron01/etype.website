@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('stylesheets/fonts/chunkfive-webfont.eot');
+    src: url('stylesheets/fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+    url('stylesheets/fonts/chunkfive-webfont.woff') format('woff'),
+    url('stylesheets/fonts/chunkfive-webfont.ttf') format('truetype'),
+    url('stylesheets/fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/lobster_1.3-webfont.eot');
+    src: url('fonts/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/lobster_1.3-webfont.woff') format('woff'),
+    url('fonts/lobster_1.3-webfont.ttf') format('truetype'),
+    url('fonts/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

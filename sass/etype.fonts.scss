@@ -1,0 +1,16 @@
+@import "compass/css3";
+@import "defaults";
+
+@include font-face($CHUNK_FIVE, font-files(
+    "chunkfive-webfont.eot",
+    "chunkfive-webfont.svg",
+    "chunkfive-webfont.ttf",
+    "chunkfive-webfont.woff")
+);
+
+@include font-face($LOBSTER, font-files(
+    "lobster_1.3-webfont.eot",
+    "lobster_1.3-webfont.svg",
+    "lobster_1.3-webfont.ttf",
+    "lobster_1.3-webfont.woff")
+);
