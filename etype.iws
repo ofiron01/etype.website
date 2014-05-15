@@ -2,352 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b270767b-2467-4298-8e5b-20b136e4e041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Etype_Inner_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Etype_inner_solution_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_alerts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_appearance.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_background-clip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_background-origin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/3192d48dc3e6955156e8fd66668555effb2852b5/_background.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_badges.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_blueprint-grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_box-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_box.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_breadcrumbs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_button-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_carbon-fiber.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_carousel.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_checkerboard.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_cicada-stripes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_close.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_code.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_component-animations.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_dropdowns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/compass-recipes/sass_extensions/_error.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_font-face.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_glyphicons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_gradients.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bf05f0e8f3d69bdc096e84e3b1c3ef20d9f3baf9/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_houndstooth.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_hyphenation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_input-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_jumbotron.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_labels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_lined-paper.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_list-group.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_madras.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_metal.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_modals.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/24d14e8bda15c6edf3eb7599acb1d9263f8350e9/_name.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_navbar.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_navs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_noise.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_pager.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_panels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_polka-dot.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_popovers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_progress-bars.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/11e4e5ee6449bc40d63dd74dab33bd6739a43937/_pseudo-element.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_radial-overlay.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_regions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_responsive-utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_scaffolding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_shared.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2930315f2724b6a59dcda56063124de657302449/_stretching.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_stripes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2b74030caa61013c78bfa0096bd5818721b121ae/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_tablecloth.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_tartan.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_text-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_thumbnails.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_tooltip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_transform-legacy.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_transform.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_transition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_type.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_user-interface.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/e5d3bf9e89c6177fb7271ad2d4d1c20df5f0995a/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/_wells.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_bottom_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_client_logo_sample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_client_logos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_guaranteed_badge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_ornament1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_ornament2-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_ornament2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_quote_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_round_photo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_round_photo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_round_photo3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/compass-recipes/sass_extensions/background_noise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/chunkfive-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/chunkfive-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/chunkfive-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/chunkfive-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/defaults.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.home.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grey_noise.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_clients.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_figura_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_middle_bg_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_middle_bg_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_plate1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_slogan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_stamp1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_stamp2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_stamp3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_title_ornament1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hp_video_placeholder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/lobster_1.3-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/lobster_1.3-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/lobster_1.3-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts/lobster_1.3-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/navbar_selected_bg - Copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/navbar_selected_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/red_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/red_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/compass-recipes/sass_extensions.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solution_element.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solution_element1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_element_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solution_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solution_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_bottom_banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_bottom_banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_clients.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_clients.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_element1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/solutions_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images/solutions_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_analog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/animation/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_background-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_bevel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/border/_bevel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_block-inline-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/layout/vertical-align/_block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_blueprint-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_box-sizing.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_carbon-fiber.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_checkerboard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_cicada-stripes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_complementary.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_convex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_corner-folded.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_corners-tucked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2b74030caa61013c78bfa0096bd5818721b121ae/_css3.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_curled-corners.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_curved.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_cutout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_diamond.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/image/_dimensions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/_drop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/menu/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_effect.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_egg.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/form/_element.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/_ellipse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/layout/_flexible-box-model.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_flying.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_folded-corner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_glass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_glossy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_google-webfont.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/text/_gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_heart.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/media-queries/size/_height.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_hexagon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_houndstooth.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_icon-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_infinity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/form/element/_inline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/image/_inline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_keyboard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/animation/_keyframes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_lifted-corners.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_lined-paper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_list-inline-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_madras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_media-queries.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_metal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/_name.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/form/skin/_natural.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_noise.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_octagon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/media-queries/_orientation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_overlay.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_pacman.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_parallelogram.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_pentagon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_perspective.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_polka-dot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/_polygon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_pseudo-element.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/loader/_pulse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_radial-overlay.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_rainbow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d1d6b857f91ac861713d3ddb7214736e9277264e/_rainbow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_raised.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_recipes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_rectangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/utilities/_relative-position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2b74030caa61013c78bfa0096bd5818721b121ae/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/media-queries/_resolution.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_rhombus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_ribbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_scatter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/_scheme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_separator.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_shape.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/media-queries/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/form/_skin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_split.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/image/_sprite.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_square.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_star.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_stripes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_subtle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/_symbol.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_tablecloth.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/effect/_tape.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/background/_tartan.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_tetra.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/animation/_timing-function.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/ui/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/_top-edge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shadow/drop/_transform-requirement.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_trapezoid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/color/scheme/_triad.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/polygon/_triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_ui.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/layout/_vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/media-queries/size/_width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/recipes/shape/symbol/_yin-yang.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/330cc4a44ed684675fa7ea1a9d985eaf67d2a5e0/bootstrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/bootstrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/compass-recipes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/contactus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/defaults.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/etype.about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/etype.about.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.about.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/etype.fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/etype.fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.fonts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/etype.home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/etype.home.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etype.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etype.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/etype.main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/etype.main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/etype.solutions.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/etype.solutions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.solutions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/ie.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/screen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/services.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/slogan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/solutions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etype.iws" afterPath="$PROJECT_DIR$/etype.iws" />
     </list>
     <ignored path="etype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -368,7 +23,7 @@
     <file path="/etype.about.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400074413116" ignored="false" />
     <file path="/solutions.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400142935053" ignored="false" />
     <file path="/etype.solutions.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400142941062" ignored="false" />
-    <file path="/Dummy.txt" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400159222558" ignored="false" />
+    <file path="/Dummy.txt" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400159278833" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -891,6 +546,11 @@
       <created>1399875225654</created>
       <updated>1399875225654</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1400159317018</created>
+      <updated>1400159317018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -909,6 +569,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -966,7 +627,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -980,6 +641,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -991,22 +653,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/etype.main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="87" selection-start="530" selection-end="530" vertical-scroll-proportion="0.36666667" />
+        <state line="18" column="87" selection-start="530" selection-end="530" vertical-scroll-proportion="0.36666667">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/etype.home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="826" selection-end="826" vertical-scroll-proportion="0.2611111" />
+        <state line="25" column="25" selection-start="826" selection-end="826" vertical-scroll-proportion="0.2611111">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/defaults.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/about_ornament1.png">
