@@ -15,6 +15,9 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/solutions', {templateUrl: 'partials/solutions.html'});
   $routeProvider.when('/services', {templateUrl: 'partials/services.html'});
   $routeProvider.when('/contactus', {templateUrl: 'partials/contactus.html'});
+
+  $routeProvider.when('/eParliament', {templateUrl: 'partials/solutions.eparliament.html'});
+
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);
 

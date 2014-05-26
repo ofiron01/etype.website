@@ -58,6 +58,11 @@ h2 {
   &:hover {
     text-decoration: underline;
   }
+}
+
+@mixin top-site {
+   background-color: #ebede4;
+   @if $PRODUCTION {@include background-noise(0.5,0.1,200,true);}
 
 }
 
@@ -110,12 +115,37 @@ p.page-text {
   color:$SITE_BODY_TEXT;
 }
 p.page-text.first:first-letter {
-  font-size: 3em;
+  font-size: 5em;
+  font-weight: bold;
   float: left;
 }
 
 p.page-text-small {
   font-size: 14px;
+}
+
+div.title-black {
+  text-align: center;
+  font: 41px $CHUNK_FIVE;
+}
+
+div.form-submit {
+  color:#ea5e55;
+  font: 14px $MUSEO_SLAB;
+  border-top: thin solid #ea5e55;
+  border-bottom: thin solid #ea5e55;
+  width: 140px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  cursor: pointer;
+  @include transition(all 0.15s ease-out);
+
+  &:hover {
+    color: $SITE_ORANGE;
+    border-color: $SITE_ORANGE;
+  }
 }
 
 

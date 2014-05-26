@@ -12,7 +12,6 @@ div.element1 {
   top: 150px;
   background: url("../images/solution_element.png") no-repeat;
 
-
   @media screen and (max-width: $break-small) {
     right:-150px;
   }
@@ -25,18 +24,15 @@ div.element1 {
   @media screen and (max-width: $break-small - 400) {
     right:-500px;
   }
-
 }
 
 ul.solutions-star-points li {
   margin: 0 0 10px 15px;
 }
-
 div.solution-slogan {
   font: 41px $CHUNK_FIVE;
   color:#000000;
 }
-
 div.solution-box {
   div.solution-icon {
     text-align: center;
@@ -45,7 +41,6 @@ div.solution-box {
     padding: 15px 0 7px 0;
   }
 }
-
 div.solution-name1 {
 
   height: 30px;
@@ -54,7 +49,6 @@ div.solution-name1 {
   text-align: center;
   margin: 0px 0 10px 0;
 }
-
 div.solution-desc1 {
 
   font: 16px $MUSEO_SLAB;
@@ -62,7 +56,6 @@ div.solution-desc1 {
   text-align: center;
   height: 110px;
 }
-
 div.learn-more {
   color:#63a69f;
   font: 14px $MUSEO_SLAB;
@@ -82,7 +75,6 @@ div.learn-more {
     cursor: default;
   }
 }
-
 div.learn-more-filler {
   width: 140px;
   height: 15px;
@@ -91,14 +83,11 @@ div.learn-more-filler {
   background-color:transparent;
   @include transition(background-color 0.15s ease-out);
 }
-
 div.learn-more-filler-active {
   background-color: #ebede4;
 }
 
-
 div.solution-learn-info {
-
   div.learn-more-text {
     background-color: #ebede4;
     width: 919px;
@@ -110,5 +99,123 @@ div.solution-learn-info {
     margin-left: auto;
     padding: 20px;
     margin-top: -2px;
+  }
+}
+
+
+
+div.solutions-con {
+  width: 950px;
+  height: 900px;
+  position: relative;
+
+a {
+  color:#000000;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color:#000000;
+    text-decoration: none;
+  }
+}
+
+
+a {
+  position: absolute;
+  display: block;
+  width: 225px;
+  height: 224px;
+}
+
+
+
+a.hp_icon0 {
+  background: url("../images/hp_icon0.png") 5px 0 no-repeat;
+  top:50px;
+  left:80px;
+}
+
+a.hp_icon1 {
+  background: url("../images/hp_icon1.png") 5px 0 no-repeat;
+  left:370px;
+  top:70px;
+}
+a.hp_icon2 {
+  background: url("../images/hp_icon2.png") 5px 0 no-repeat;
+  left:650px;
+  top:58px;
+}
+a.hp_icon3 {
+  background: url("../images/hp_icon3.png") 5px 0 no-repeat;
+  left:220px;
+  top:460px;
+
+}
+a.hp_icon4 {
+  background: url("../images/hp_icon4.png") 5px 0 no-repeat;
+  left:520px;
+  top:460px;
+}
+
+span.hp-icon {
+  font: 22px $MUSEO_SLAB;
+  color:#000000;
+  text-decoration: none;
+  position: absolute;
+
+}
+
+
+span.hp-icon-0 {
+  margin:100px 0 0 55px;
+}
+span.hp-icon-1 {
+  margin:80px 0 0 55px;
+}
+
+span.hp-icon-2 {
+  margin:95px 0 0 60px;
+}
+
+span.hp-icon-3 {
+  margin:95px 0 0 85px;
+}
+
+span.hp-icon-4 {
+  margin:95px 0 0 70px;
+}
+
+}
+
+img.solution-btn {
+  position: relative;
+  top:160px;
+}
+
+p.solution-desc-short {
+  position: relative;
+  top:160px;
+  text-align: center;
+}
+
+div.view-more {
+  color:#63a69f;
+  font: 14px $MUSEO_SLAB;
+  border-top: thin solid #63a69f;
+  border-bottom: thin solid #63a69f;
+  width: 140px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  cursor: pointer;
+  @include transition(all 0.15s ease-out);
+  position: relative;
+  top:180px;
+
+  &:hover {
+   color:$SITE_ORANGE;
+    border-color: $SITE_ORANGE;
   }
 }

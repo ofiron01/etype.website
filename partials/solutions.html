@@ -1,153 +1,63 @@
-<div ng-controller="SolutionsCtrl">
-    <div class="element1"></div>
+<div  ng-controller="SolutionsCtrl">
 <div class="topsite">
     <div class="container">
-        <div class="center-box">
-            <img src="images/solution_title.png" />
-        </div>
-        <div class="center-box"  style="padding-top: 0">
+        <h2 class="page-title">SOLUTIONS</h2>
+        <div class="center-box" style="padding-top: 0">
             <img src="images/about_ornament1.png" style="margin-bottom: -60px;" />
         </div>
-
     </div>
 </div>
-
-
-<div class="container" style="width: 473px; margin-top: 50px; margin-bottom: 50px">
+<div class="container" style="width: 470px; margin-top: 50px;">
     <p class="page-text first">e</p>
     <p class="page-text">
-        Parliament is the most advanced and comprehensive solution for the management and documentation of Houses of Representatives.
-        eParliament allows for an easy management of legislation and other parliamentary processes.
+        Type develops and implements solutions for digital recordings and the production of protocols, with audio, video & text synchronization.
     </p>
-    <p class="page-text">
-        easy management of legislation and other parliamentary processes.
-    </p>
-    <p class="page-text" style="font-weight: bold">
-        Each parliament could modularly adapt it's eParliament implementation to fit it's exact needs:
-    </p>
-
-    <ul class="solutions-star-points" style="list-style-image: url(images/red_star.png)">
-        <li>Manage Bills through all stages until publication as Laws.</li>
-        <li>Digital recording of all parliament sessions, house and committees alike.</li>
-        <li>Transcription, translation and video synchronization of each digital recording.</li>
-        <li>Incorporated extendable archive containing all relevant information (audio\video, transcriptions, translations, bills, etc)
-            allowing law makers and other parliamentary workers an easy and efficient access to information.</li>
-        <li>Public internet portal allowing the public and the press direct access to parliamentary records and information.</li>
-    </ul>
 </div>
 <div class="container">
-    <div class="center-box solution-slogan">
-        <img src="images/about_ornament1.png"/>
-        Record, Type, Sync & Play
-        <img src="images/about_ornament1.png"/>
-    </div>
+<div class="solutions-con">
+    <a ng-click="navigateToSolution('eParliament')" class="hp_icon0"><span class="hp-icon hp-icon-0">eParliament</span>
+        <img class="solution-btn" src="images/solutions_solution_btn1.png" /><br/>
+        <p class="solution-desc-short">
+            eParliament is the most advanced and comprehensive solution for the management and documentation of Houses of Representatives.
+        </p>
+        <div class="view-more" >VIEW MORE</div>
+    </a>
+    <a ng-click="navigateToSolution('eParliament')" class="hp_icon1"><span class="hp-icon hp-icon-1">eProduction</span>
+        <img class="solution-btn" src="images/solutions_solution_btn1.png" /><br/>
+        <p class="solution-desc-short">
+            eProduction provides an innovative and efficient solution for media and production companies, that revolutionize the process of editing.
+        </p>
+        <div class="view-more" >VIEW MORE</div>
+    </a>
+    <a ng-click="navigateToSolution('eParliament')" class="hp_icon2"><span class="hp-icon hp-icon-2">eCorporate</span>
+        <img class="solution-btn" src="images/solutions_solution_btn1.png" /><br/>
+        <p class="solution-desc-short">
+            eCorporate brings your business record keeping to the 21st century. No matter if you’re a small company or a global corporate.
+        </p>
+        <div class="view-more" >VIEW MORE</div>
+    </a>
+    <a ng-click="navigateToSolution('eParliament')" class="hp_icon3"><span class="hp-icon hp-icon-3">eLaw</span>
+        <img class="solution-btn" src="images/solutions_solution_btn1.png" /><br/>
+        <p class="solution-desc-short">
+            eLaw is an advance comprehensive digital solution for Law, investigative and regulatory organizations, already in use by the  leading Israeli investigating agencies.
+        </p>
+        <div class="view-more" >VIEW MORE</div>
+    </a>
+    <a ng-click="navigateToSolution('eParliament')" class="hp_icon4"><span class="hp-icon hp-icon-4">eSchool</span>
+        <img class="solution-btn" src="images/solutions_solution_btn1.png" /><br/>
+        <p class="solution-desc-short">
+            eSchool is the way for a digital institution, giving your students all the martial from class in audio, video in text everywhere, anytime.
+        </p>
+        <div class="view-more" >VIEW MORE</div>
+    </a>
+</div>
 </div>
 <div class="container">
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon1.png"/>
-        </div>
-        <div class="solution-name1">
-            syncType
-        </div>
-        <div class="solution-desc1">
-            25 years of experience<br/>
-            comes down to the world’s<br/>
-            most advanced typing and<br/>
-            transcription software!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(1)" ng-class="{'active':activeSolutionInfo==1}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==1}"></div>
-    </div>
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon2.png"/>
-        </div>
-        <div class="solution-name1">
-            syncRecord
-        </div>
-        <div class="solution-desc1">
-            Turn your computer into a<br/>
-            sophisticated recording<br/>
-            machine!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(2)" ng-class="{'active':activeSolutionInfo==2}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==2}"></div>
-    </div>
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon3.png"/>
-        </div>
-        <div class="solution-name1">
-            syncMNG
-        </div>
-        <div class="solution-desc1">
-            The ultimate<br/>synchronization - A true<br/>text searchable video!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(3)" ng-class="{'active':activeSolutionInfo==3}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==3}"></div>
-    </div>
-
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon4.png"/>
-        </div>
-        <div class="solution-name1">
-            syncPlayer
-        </div>
-        <div class="solution-desc1">
-            The ultimate way to see<br/>the video and read the text<br/>simultaneously!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(4)" ng-class="{'active':activeSolutionInfo==4}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==4}"></div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="solution-learn-info" ng-switch on="activeSolutionInfo">
-        <div id="learnMore1" class="learn-more-text" ng-switch-when="1">
-            1.SyncType Transforms your PC, and the familiar environment of Microsoft Word,
-            into an advanced and efficient transcription work-station.
-            SyncType gives you a competitive edge by with a Synchronized Protocol:
-            a full and synchronized link between a recording file and the transcription,
-            allowing full textual search of video and audio files. And the great thing – this is done automatically!
-            No need for manual time coding and other hustles, just type as usual and the synchronization is seamlessly created.
-        </div>
-        <div id="learnMore2" class="learn-more-text" ng-switch-when="2">
-            2.SyncType Transforms your PC, and the familiar environment of Microsoft Word,
-            into an advanced and efficient transcription work-station.
-            SyncType gives you a competitive edge by with a Synchronized Protocol:
-            a full and synchronized link between a recording file and the transcription,
-            allowing full textual search of video and audio files. And the great thing – this is done automatically!
-            No need for manual time coding and other hustles, just type as usual and the synchronization is seamlessly created.
-        </div>
-        <div id="learnMore3" class="learn-more-text" ng-switch-when="3">
-            3.SyncType Transforms your PC, and the familiar environment of Microsoft Word,
-            into an advanced and efficient transcription work-station.
-            SyncType gives you a competitive edge by with a Synchronized Protocol:
-            a full and synchronized link between a recording file and the transcription,
-            allowing full textual search of video and audio files. And the great thing – this is done automatically!
-            No need for manual time coding and other hustles, just type as usual and the synchronization is seamlessly created.
-        </div>
-        <div id="learnMore4" class="learn-more-text" ng-switch-when="4">
-            4.SyncType Transforms your PC, and the familiar environment of Microsoft Word,
-            into an advanced and efficient transcription work-station.
-            SyncType gives you a competitive edge by with a Synchronized Protocol:
-            a full and synchronized link between a recording file and the transcription,
-            allowing full textual search of video and audio files. And the great thing – this is done automatically!
-            No need for manual time coding and other hustles, just type as usual and the synchronization is seamlessly created.
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="center-box">
-        <img src="images/solutions_clients.png" />
-    </div>
     <div class="center-box">
         <img src="images/about_ornament2.png" />
     </div>
     <div class="center-box">
-        <img src="images/solutions_bottom_banner.png" />
+        <img src="images/about_bottom_banner.jpg" />
     </div>
     <div class="center-box">
         <img src="images/about_ornament2-10.png" />

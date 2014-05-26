@@ -5,10 +5,10 @@
 angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
   // MAIN CONTROLLER
-  .controller('MainCtrl', ['$scope', '$location', function($scope, $location){
+  .controller('MainCtrl', ['$scope', '$location', 'Data', function($scope, $location, Data){
 
 
-        $scope.websiteName = 'ETYPE';
+        $scope.websiteName = Data.websiteName;
         $scope.currentPage =  $location.path().substr(1);
 
         $scope.pages = [
@@ -38,7 +38,17 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
   }])
 
     // SOLUTIONS PAGE
-    .controller('SolutionsCtrl', ['$scope', function($scope){
+    .controller('SolutionsCtrl', ['$scope', '$location', function($scope, $location){
+        $scope.navigateToSolution = function(page) {
+
+            $location.path(page);
+
+        };
+
+    }])
+
+
+    .controller('SolutionsEParliamentCtrl', ['$scope', function($scope){
 
         $scope.activeSolutionInfo = 1;
 

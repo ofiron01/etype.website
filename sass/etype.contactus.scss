@@ -1,0 +1,39 @@
+@import "compass/css3";
+@import "recipes/background";
+@import "defaults";
+
+
+div.contact-form {
+    text-align: center;
+
+  div.contactus-input-con {
+    margin:10px;
+    input.contactus-input {
+      width: 368px;
+      height: 54px;
+      background: url(../images/contactus_form_filed1.png) no-repeat;
+      border: none;
+      outline: none;
+      text-align: center;
+      font: 14px $MUSEO_SLAB;
+      color: $SITE_BODY_TEXT;
+
+    }
+
+    textarea.contactus-input-textarea {
+      width: 368px;
+      height: 192px;
+      background: url(../images/contactus_form_textarea.png) no-repeat;
+      border: none;
+      outline: none;
+      font: 14px $MUSEO_SLAB;
+      color: $SITE_BODY_TEXT;
+      text-align: center;
+      padding:10px;
+    }
+  }
+
+}
+
+
+

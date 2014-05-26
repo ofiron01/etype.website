@@ -31,9 +31,14 @@ h2 { text-align: center; }
 
 p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
 
-p.page-text.first:first-letter { font-size: 3em; float: left; }
+p.page-text.first:first-letter { font-size: 5em; font-weight: bold; float: left; }
 
 p.page-text-small { font-size: 14px; }
+
+div.title-black { text-align: center; font: 41px "ChunkFive"; }
+
+div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
 
 div.element1 { width: 683px; height: 1019px; position: absolute; right: -40px; top: 150px; background: url("../images/solution_element.png") no-repeat; }
 @media screen and (max-width: 1700px) { div.element1 { right: -150px; } }
@@ -59,3 +64,26 @@ div.learn-more-filler { width: 140px; height: 15px; margin-right: auto; margin-l
 div.learn-more-filler-active { background-color: #ebede4; }
 
 div.solution-learn-info div.learn-more-text { background-color: #ebede4; width: 919px; height: 130px; font: 16px "MuseoSlab"; color: #50616c; text-align: center; margin-right: auto; margin-left: auto; padding: 20px; margin-top: -2px; }
+
+div.solutions-con { width: 950px; height: 900px; position: relative; }
+div.solutions-con a { color: #000000; text-decoration: none; cursor: pointer; }
+div.solutions-con a:hover { color: #000000; text-decoration: none; }
+div.solutions-con a { position: absolute; display: block; width: 225px; height: 224px; }
+div.solutions-con a.hp_icon0 { background: url("../images/hp_icon0.png") 5px 0 no-repeat; top: 50px; left: 80px; }
+div.solutions-con a.hp_icon1 { background: url("../images/hp_icon1.png") 5px 0 no-repeat; left: 370px; top: 70px; }
+div.solutions-con a.hp_icon2 { background: url("../images/hp_icon2.png") 5px 0 no-repeat; left: 650px; top: 58px; }
+div.solutions-con a.hp_icon3 { background: url("../images/hp_icon3.png") 5px 0 no-repeat; left: 220px; top: 460px; }
+div.solutions-con a.hp_icon4 { background: url("../images/hp_icon4.png") 5px 0 no-repeat; left: 520px; top: 460px; }
+div.solutions-con span.hp-icon { font: 22px "MuseoSlab"; color: #000000; text-decoration: none; position: absolute; }
+div.solutions-con span.hp-icon-0 { margin: 100px 0 0 55px; }
+div.solutions-con span.hp-icon-1 { margin: 80px 0 0 55px; }
+div.solutions-con span.hp-icon-2 { margin: 95px 0 0 60px; }
+div.solutions-con span.hp-icon-3 { margin: 95px 0 0 85px; }
+div.solutions-con span.hp-icon-4 { margin: 95px 0 0 70px; }
+
+img.solution-btn { position: relative; top: 160px; }
+
+p.solution-desc-short { position: relative; top: 160px; text-align: center; }
+
+div.view-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; position: relative; top: 180px; }
+div.view-more:hover { color: #f6b42c; border-color: #f6b42c; }

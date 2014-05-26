@@ -20,8 +20,7 @@ div.hr {
 }
 
 div.topsite {
-  background-color: #ebede4;
-  @if $PRODUCTION {@include background-noise(0.5,0.1,200,true);}
+  @include top-site;
 }
 
 

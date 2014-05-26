@@ -31,9 +31,14 @@ h2 { text-align: center; }
 
 p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
 
-p.page-text.first:first-letter { font-size: 3em; float: left; }
+p.page-text.first:first-letter { font-size: 5em; font-weight: bold; float: left; }
 
 p.page-text-small { font-size: 14px; }
+
+div.title-black { text-align: center; font: 41px "ChunkFive"; }
+
+div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
 
 @font-face { font-family: "ChunkFive"; src: url('fonts/chunkfive-webfont.eot') format('embedded-opentype'), url('fonts/chunkfive-webfont.svg') format('svg'), url('fonts/chunkfive-webfont.ttf') format('truetype'), url('fonts/chunkfive-webfont.woff') format('woff'); }
 
