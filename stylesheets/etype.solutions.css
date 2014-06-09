@@ -40,11 +40,21 @@ div.title-black { text-align: center; font: 41px "ChunkFive"; }
 div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
 div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
 
-div.element1 { width: 683px; height: 1019px; position: absolute; right: -40px; top: 150px; background: url("../images/solution_element.png") no-repeat; }
-@media screen and (max-width: 1700px) { div.element1 { right: -150px; } }
-@media screen and (max-width: 1500px) { div.element1 { right: -200px; } }
-@media screen and (max-width: 1400px) { div.element1 { right: -300px; } }
-@media screen and (max-width: 1300px) { div.element1 { right: -500px; } }
+div.element { width: 683px; height: 1019px; position: absolute; right: -40px; top: 150px; }
+@media screen and (max-width: 1700px) { div.element { right: -150px; } }
+@media screen and (max-width: 1500px) { div.element { right: -200px; } }
+@media screen and (max-width: 1400px) { div.element { right: -300px; } }
+@media screen and (max-width: 1300px) { div.element { right: -500px; } }
+
+div.element1 { background: url("../images/solution_element.png") no-repeat; }
+
+div.element2 { background: url("../images/solutions_element2.png") no-repeat; }
+
+div.element3 { background: url("../images/solutions_element3.png") no-repeat; }
+
+div.element4 { background: url("../images/solutions_element4.png") no-repeat; }
+
+div.element5 { background: url("../images/solutions_element5.png") no-repeat; }
 
 ul.solutions-star-points li { margin: 0 0 10px 15px; }
 

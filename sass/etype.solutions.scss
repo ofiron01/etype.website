@@ -4,13 +4,13 @@
 
 $break-small: 1700px;
 
-div.element1 {
+div.element {
   width: 683px;
   height: 1019px;
   position: absolute;
   right:-40px;
   top: 150px;
-  background: url("../images/solution_element.png") no-repeat;
+
 
   @media screen and (max-width: $break-small) {
     right:-150px;
@@ -24,6 +24,26 @@ div.element1 {
   @media screen and (max-width: $break-small - 400) {
     right:-500px;
   }
+}
+
+div.element1 {
+  background: url("../images/solution_element.png") no-repeat;
+}
+
+div.element2 {
+  background: url("../images/solutions_element2.png") no-repeat;
+}
+
+div.element3 {
+  background: url("../images/solutions_element3.png") no-repeat;
+}
+
+div.element4 {
+  background: url("../images/solutions_element4.png") no-repeat;
+}
+
+div.element5 {
+  background: url("../images/solutions_element5.png") no-repeat;
 }
 
 ul.solutions-star-points li {

@@ -10,26 +10,28 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
         $scope.websiteName = Data.websiteName;
         $scope.currentPage =  $location.path().substr(1);
+        if ($scope.currentPage == '') $scope.currentPage = 'home';
+        //else if ($scope.currentPage.valueOf('solutions/') > -1) $scope.currentPage = 'solutions';
 
         $scope.pages = [
-            {pageTitle: $scope.websiteName + ' | Home', navTitle: 'Home', navURL: 'home'},
-            {pageTitle: $scope.websiteName + ' | About', navTitle: 'About', navURL: 'about'},
-            {pageTitle: $scope.websiteName + ' | Solutions', navTitle: 'Solutions', navURL: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | Services', navTitle: 'Services', navURL: 'services'},
-            {pageTitle: $scope.websiteName + ' | Contact us', navTitle: 'Contact us', navURL: 'contactus'},
+            {pageTitle: $scope.websiteName + ' | Home', navTitle: 'Home', navURL: 'home', navCat: 'home'},
+            {pageTitle: $scope.websiteName + ' | About', navTitle: 'About', navURL: 'about', navCat: 'about'},
+            {pageTitle: $scope.websiteName + ' | Solutions', navTitle: 'Solutions', navURL: 'solutions', navCat: 'solutions'},
+            {pageTitle: $scope.websiteName + ' | Services', navTitle: 'Services', navURL: 'services', navCat: 'services'},
+            {pageTitle: $scope.websiteName + ' | Contact us', navTitle: 'Contact us', navURL: 'contactus', navCat: 'contactus'},
         ];
 
         $scope.solutions = [
-            {pageTitle: $scope.websiteName + ' | eParliament', navTitle: 'eParliament', navURL: 'eParliament'},
-            {pageTitle: $scope.websiteName + ' | eProduction', navTitle: 'eProduction', navURL: 'eProduction'},
-            {pageTitle: $scope.websiteName + ' | eCorporate', navTitle: 'eCorporate', navURL: 'eCorporate'},
-            {pageTitle: $scope.websiteName + ' | eLaw', navTitle: 'eLaw', navURL: 'eLaw'},
-            {pageTitle: $scope.websiteName + ' | eSchool', navTitle: 'eSchool', navURL: 'eSchool'}
+            {pageTitle: $scope.websiteName + ' | eParliament', navTitle: 'eParliament', navURL: 'solutions/eParliament', navCat: 'solutions'},
+            {pageTitle: $scope.websiteName + ' | eProduction', navTitle: 'eProduction', navURL: 'solutions/eProduction', navCat: 'solutions'},
+            {pageTitle: $scope.websiteName + ' | eCorporate', navTitle: 'eCorporate', navURL: 'solutions/eCorporate', navCat: 'solutions'},
+            {pageTitle: $scope.websiteName + ' | eLaw', navTitle: 'eLaw', navURL: 'solutions/eLaw', navCat: 'solutions'},
+            {pageTitle: $scope.websiteName + ' | eSchool', navTitle: 'eSchool', navURL: 'solutions/eSchool', navCat: 'solutions'}
         ];
 
 
         $scope.navigateTo = function(page) {
-            $scope.currentPage = page.navURL;
+            $scope.currentPage = page.navCat;
             $location.path(page.navURL);
 
         };

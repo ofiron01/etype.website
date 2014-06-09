@@ -16,7 +16,11 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/services', {templateUrl: 'partials/services.html'});
   $routeProvider.when('/contactus', {templateUrl: 'partials/contactus.html'});
 
-  $routeProvider.when('/eParliament', {templateUrl: 'partials/solutions.eparliament.html'});
+  $routeProvider.when('/solutions/eParliament', {templateUrl: 'partials/solutions.eparliament.html'});
+  $routeProvider.when('/solutions/eProduction', {templateUrl: 'partials/solutions.eproduction.html'});
+  $routeProvider.when('/solutions/eSchool', {templateUrl: 'partials/solutions.eschool.html'});
+  $routeProvider.when('/solutions/eLaw', {templateUrl: 'partials/solutions.elaw.html'});
+  $routeProvider.when('/solutions/eCorporate', {templateUrl: 'partials/solutions.eCorporate.html'});
 
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);

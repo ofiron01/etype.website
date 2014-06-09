@@ -9,27 +9,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>E TYPE</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 
   <link rel="stylesheet" href="stylesheets/screen.css"/>
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
   <link rel="stylesheet" href="stylesheets/etype.fonts.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.main.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.home.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.main.css?v=1.00"/>
+  <link rel="stylesheet" href="stylesheets/etype.home.css?v=1.00"/>
   <link rel="stylesheet" href="stylesheets/etype.about.css"/>
   <link rel="stylesheet" href="stylesheets/etype.solutions.css"/>
   <link rel="stylesheet" href="stylesheets/etype.services.css"/>
   <link rel="stylesheet" href="stylesheets/etype.contactus.css"/>
 </head>
-<body ng-controller="MainCtrl">
+<body ng-controller="MainCtrl" ng-cloak>
     <div class="topsite">
     <div class="container">
         <div class="navbar">
             <div class="hr"></div>
             <a href="http://www.etype.co.il"><img width="181" height="67" alt="ETYPE" src="images/logo_top.png"/></a>
             <ul class="nav navbar-nav pull-right">
-                <li ng-repeat="page in pages"><a class="menu-link" ng-class="{'current': currentPage==page.navURL}" ng-click="navigateTo(page)">{{page.navTitle}}</a></li>
+                <li ng-repeat="page in pages"><a class="menu-link" ng-class="{'current': currentPage==page.navCat}" ng-click="navigateTo(page)">{{page.navTitle}}</a></li>
             </ul>
         </div>
     </div>

@@ -1,0 +1,60 @@
+/*============= FONTS ==================*/
+/*============= COLORS ==================*/
+/*============= LAYOUT ==================*/
+.container { width: 980px; padding: 0; }
+
+/*============= DEFAULTS ================*/
+html, body { overflow-x: hidden; }
+
+h2 { text-align: center; }
+
+/*============= MIXINS ==================*/
+/*============= HELPERS ==================*/
+.push-right { margin-right: -30px; }
+
+.push-left { margin-left: -15px; }
+
+.black { color: #000000; }
+.black:hover { color: #000000; }
+
+.orange { color: #f6b42c; }
+.orange:hover { color: #f6b42c; }
+
+.center-box { padding: 25px; text-align: center; }
+
+.text-link { text-decoration: none; cursor: pointer; }
+.text-link:hover { text-decoration: underline; }
+
+.menu-link { -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; transition: color 0.2s ease-out; }
+
+.page-title { font: 99px "ChunkFive"; color: #f6b42c; text-align: center; }
+
+p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
+
+p.page-text.first:first-letter { font-size: 5em; font-weight: bold; float: left; }
+
+p.page-text-small { font-size: 14px; }
+
+div.title-black { text-align: center; font: 41px "ChunkFive"; }
+
+div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
+
+div.service-title { padding: 20px; }
+
+div.round-photo { padding-bottom: 20px; text-align: center; }
+
+div.upload-a-file { padding: 30px; }
+div.upload-a-file span.recieve-offer { font: 28px "MuseoSlab"; color: #f6b42c; }
+div.upload-a-file div.upload-a-file-fake { width: 657px; height: 54px; background: url(../images/services_form_field1.png) no-repeat; overflow: hidden; margin: 10px 0 13px 141px; cursor: pointer; }
+div.upload-a-file div.upload-a-file-fake:hover { background-position: -657px 0; }
+div.upload-a-file div.upload-a-file-fake input[type=file] { display: block !important; width: 657px !important; height: 54px !important; opacity: 0 !important; overflow: hidden !important; cursor: pointer; }
+div.upload-a-file div.styled-select { width: 324px; height: 54px; overflow: hidden; background: url(../images/services_form_field3.png) no-repeat; text-align: center; display: inline-block; margin-bottom: 30px; }
+div.upload-a-file div.styled-select select { padding-left: 30px; background: transparent; width: 324px; height: 54px; font: 16px "MuseoSlab"; color: #50616c; line-height: 1; border: 0; border-radius: 0; height: 34px; text-align: center; cursor: pointer; -webkit-appearance: none; }
+div.upload-a-file div.styled-select select:focus { outline: none; }
+div.upload-a-file div.styled-select select option { font: 16px "MuseoSlab"; color: #50616c; }
+
+div.services-form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.services-form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
+
+input.services-form-input { font: 14px "MuseoSlab"; color: #50616c; text-align: center; width: 325px; height: 54px; background: transparent url(../images/services_form_field2.png) no-repeat; border: none; margin-bottom: 10px; outline: none; }

@@ -1,0 +1,46 @@
+/*============= FONTS ==================*/
+/*============= COLORS ==================*/
+/*============= LAYOUT ==================*/
+.container { width: 980px; padding: 0; }
+
+/*============= DEFAULTS ================*/
+html, body { overflow-x: hidden; }
+
+h2 { text-align: center; }
+
+/*============= MIXINS ==================*/
+/*============= HELPERS ==================*/
+.push-right { margin-right: -30px; }
+
+.push-left { margin-left: -15px; }
+
+.black { color: #000000; }
+.black:hover { color: #000000; }
+
+.orange { color: #f6b42c; }
+.orange:hover { color: #f6b42c; }
+
+.center-box { padding: 25px; text-align: center; }
+
+.text-link { text-decoration: none; cursor: pointer; }
+.text-link:hover { text-decoration: underline; }
+
+.menu-link { -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; transition: color 0.2s ease-out; }
+
+.page-title { font: 99px "ChunkFive"; color: #f6b42c; text-align: center; }
+
+p.page-text { text-align: justify; font: 16px "MuseoSlab"; color: #50616c; }
+
+p.page-text.first:first-letter { font-size: 5em; font-weight: bold; float: left; }
+
+p.page-text-small { font-size: 14px; }
+
+div.title-black { text-align: center; font: 41px "ChunkFive"; }
+
+div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
+
+div.contact-form { text-align: center; }
+div.contact-form div.contactus-input-con { margin: 10px; }
+div.contact-form div.contactus-input-con input.contactus-input { width: 368px; height: 54px; background: url(../images/contactus_form_filed1.png) no-repeat; border: none; outline: none; text-align: center; font: 14px "MuseoSlab"; color: #50616c; }
+div.contact-form div.contactus-input-con textarea.contactus-input-textarea { width: 368px; height: 192px; background: url(../images/contactus_form_textarea.png) no-repeat; border: none; outline: none; font: 14px "MuseoSlab"; color: #50616c; text-align: center; padding: 10px; }
