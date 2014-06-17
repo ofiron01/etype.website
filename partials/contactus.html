@@ -13,16 +13,29 @@
         Type develops and implements solutions for digital recordings and the production of protocols, with audio, video & text synchronization.
     </p>
 </div>
-<div class="container contact-form" ng-form="">
-    <div class="contactus-input-con"><input class="contactus-input" placeholder="Your Name" /></div>
-    <div class="contactus-input-con"><input class="contactus-input" placeholder="Phone" /></div>
-    <div class="contactus-input-con"><input class="contactus-input" placeholder="Organization" /></div>
-    <div class="contactus-input-con"><input class="contactus-input" placeholder="E-Mail" /></div>
-    <div class="contactus-input-con"><textarea class="contactus-input-textarea" placeholder="Your Message here"></textarea></div>
+<div class="container contact-form">
+    <form name="contactForm">
+        <div class="contactus-input-con">
+            <input ng-model="contactDetails.Name" required ng-minlength="2" class="contactus-input" placeholder="Your Name" />
+        </div>
+        <div class="contactus-input-con">
+            <input ng-model="contactDetails.Phone" required  ng-minlength="6" class="contactus-input" placeholder="Phone" />
+        </div>
+        <div class="contactus-input-con">
+            <input ng-model="contactDetails.Organiztion" required  ng-minlength="2" class="contactus-input" placeholder="Organization" />
+        </div>
+        <div class="contactus-input-con">
+            <input ng-model="contactDetails.Email" required ng-minlength="2" class="contactus-input" placeholder="E-Mail" />
+        </div>
+        <div class="contactus-input-con">
+            <textarea ng-model="contactDetails.Message" class="contactus-input-textarea" placeholder="Your Message here"></textarea>
+        </div>
 
-    <div class="form-submit">
-        SEND
-    </div>
+        <button id="contactFormSubmitBtn" type="submit" class="form-submit"
+                ng-disabled="contactForm.$invalid || contactForm.$pristine || sendInProgress"
+                ng-click="onFormSubmit(contactDetails, contactForm)">{{sendButtonText || 'SEND'}}</button>
+    </form>
+
     <div style="height: 500px;"></div>
 
 

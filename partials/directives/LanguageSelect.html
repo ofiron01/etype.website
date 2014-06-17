@@ -1,0 +1,10 @@
+<div class="dropdown-toggle"  id="dropdownMenu1" data-toggle="dropdown" style="width: 320px; height: 53px; cursor: pointer;">
+    <div style="font-size: 14px; color: #50616c; text-align: center; width:210px; padding: 20px;">{{selectedLanguage.name}}</div>
+</div>
+
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="width: 210px; height: 230px; overflow-x:hidden; overflow-y: auto;">
+    <li ng-repeat="inputLanguage in languagesList">
+        <a class="item" role="menuitem" ng-click="selectLanguage(inputLanguage)" style="font-size: 19px; color: #50616c; cursor: pointer">{{inputLanguage.name}}</a>
+    </li>
+</ul>
+

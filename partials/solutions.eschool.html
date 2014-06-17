@@ -1,4 +1,4 @@
-<div ng-controller="SolutionsEParliamentCtrl">
+<div>
     <div class="element element5"></div>
 <div class="topsite">
     <div class="container">
@@ -43,95 +43,7 @@
         <img src="images/about_ornament1.png"/>
     </div>
 </div>
-<div class="container">
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon1.png"/>
-        </div>
-        <div class="solution-name1">
-            syncType
-        </div>
-        <div class="solution-desc1">
-            25 years of experience<br/>
-            comes down to the world’s<br/>
-            most advanced typing and<br/>
-            transcription software!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(1)" ng-class="{'active':activeSolutionInfo==1}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==1}"></div>
-    </div>
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon2.png"/>
-        </div>
-        <div class="solution-name1">
-            syncRecord
-        </div>
-        <div class="solution-desc1">
-            Turn your computer into a<br/>
-            sophisticated recording<br/>
-            machine!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(2)" ng-class="{'active':activeSolutionInfo==2}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==2}"></div>
-    </div>
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon3.png"/>
-        </div>
-        <div class="solution-name1">
-            syncMNG
-        </div>
-        <div class="solution-desc1">
-            The ultimate<br/>synchronization - A true<br/>text searchable video!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(3)" ng-class="{'active':activeSolutionInfo==3}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==3}"></div>
-    </div>
-
-    <div class="col-xs-3 solution-box">
-        <div class="solution-icon">
-            <img src="images/solutions_icon4.png"/>
-        </div>
-        <div class="solution-name1">
-            syncPlayer
-        </div>
-        <div class="solution-desc1">
-            The ultimate way to see<br/>the video and read the text<br/>simultaneously!
-        </div>
-        <div class="learn-more" ng-click="learnAboutSolution(4)" ng-class="{'active':activeSolutionInfo==4}">LEARN MORE</div>
-        <div class="learn-more-filler" ng-class="{'learn-more-filler-active':activeSolutionInfo==4}"></div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="solution-learn-info" ng-switch on="activeSolutionInfo">
-        <div id="learnMore1" class="learn-more-text" ng-switch-when="1">
-            <strong>SyncType</strong> Transforms your PC, and the familiar environment of Microsoft Word, into an advanced and efficient transcription work-station.
-            SyncType gives you a competitive edge by with a Synchronized Protocol: a full and synchronized link between a recording file and the transcription,
-            allowing full textual search of video and audio files. And the great thing – this is done automatically!
-            No need for manual time coding and other hustles, just type as usual and the synchronization is seamlessly created.
-        </div>
-        <div id="learnMore2" class="learn-more-text" ng-switch-when="2">
-            <strong>SyncRecord</strong> is an advanced and powerful recording software, allowing you to record video and audio in a variety of settings, complexity and quality.
-            For maximum security, SyncRecord save the recorded files in an encrypted format and in securely uploads it to a central server,
-            enabling you to create one database of all your recordings. Also, as part of the Synchronized Protocol,
-            SyncRecord automatically integrates with SyncType Software, allowing a full textual search of video and audio files.
-        </div>
-        <div id="learnMore3" class="learn-more-text" ng-switch-when="3">
-            <strong>SyncMNG</strong> is the heart of the Synchronized Protocol process, born out of eType’s years long experience as a transcription provider.
-            SyncMNG synchronizes the work done on SyncRecord and SyncType and creates a synchronized video search engine.
-            SyncMNG is a proprietary and innovative technology (Pat. Pending),
-            that allows you automatic sync and rendering of a transcription file and a video or audio file, into one true text searchable video.
-        </div>
-        <div id="learnMore4" class="learn-more-text" ng-switch-when="4">
-            <strong>SyncPlayer</strong> is a software developed to display the SyncMNG output file, of integrating SyncRecord and SyncType.
-            SyncPlayer displays in one window both the video file and its transcription in full sync,
-            which means you can click on a word and jump to the exact spot at the recording or navigate by seeking the video to get to the related text.
-            SyncPlayer comes both in a PC software and in a web-based interface which can also be fully embedded in the organization’s website.
-        </div>
-    </div>
-</div>
+    <div tab-select></div>
 <div class="container">
     <div class="center-box">
         <img src="images/solutions_clients.png" />

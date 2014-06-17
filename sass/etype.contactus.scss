@@ -11,13 +11,20 @@ div.contact-form {
     input.contactus-input {
       width: 368px;
       height: 54px;
-      background: url(../images/contactus_form_filed1.png) no-repeat;
+      background: url(../images/contactus_form_filed1.png?v=1.01) no-repeat;
       border: none;
       outline: none;
       text-align: center;
       font: 14px $MUSEO_SLAB;
       color: $SITE_BODY_TEXT;
+      &:required { /*firefox*/
+        box-shadow:none;
+      }
+    }
 
+    input.ng-invalid:not(.ng-pristine) {
+      color: #ff0000;
+      background-position: -368px 0;
     }
 
     textarea.contactus-input-textarea {

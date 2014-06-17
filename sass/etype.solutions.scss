@@ -87,9 +87,14 @@ div.learn-more {
   margin-left: auto;
   padding: 5px;
   cursor: pointer;
-  @include transition(background-color 0.15s ease-out);
+  @include transition(all 0.15s ease-out);
+  &:hover {
+    color: $SITE_ORANGE;
+    border-color: $SITE_ORANGE;
+  }
 
   &.active {
+    color:#63a69f;
     background-color: #ebede4;
     border: none;
     cursor: default;
@@ -119,6 +124,7 @@ div.solution-learn-info {
     margin-left: auto;
     padding: 20px;
     margin-top: -2px;
+
   }
 }
 

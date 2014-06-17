@@ -89,7 +89,9 @@ h2 {
   }
 }
 
-
+.app-main {
+  min-height: 700px;
+}
 .center-box {
   padding: 25px;
   text-align: center;
@@ -129,7 +131,7 @@ div.title-black {
   font: 41px $CHUNK_FIVE;
 }
 
-div.form-submit {
+button.form-submit {
   color:#ea5e55;
   font: 14px $MUSEO_SLAB;
   border-top: thin solid #ea5e55;
@@ -140,11 +142,22 @@ div.form-submit {
   margin-left: auto;
   padding: 5px;
   cursor: pointer;
+  background-color: transparent;
+  border-left:none;
+  border-right: none;
+  outline: none;
   @include transition(all 0.15s ease-out);
 
   &:hover {
     color: $SITE_ORANGE;
     border-color: $SITE_ORANGE;
+  }
+
+  &[disabled] {
+    color:#cccccc;
+    border-top: thin solid #cccccc;
+    border-bottom: thin solid #cccccc;
+    cursor: default;
   }
 }
 

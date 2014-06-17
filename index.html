@@ -7,34 +7,35 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>E TYPE</title>
   <meta name="description" content="">
-
-
-
+  <title>E TYPE</title>
   <link rel="stylesheet" href="stylesheets/screen.css"/>
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
   <link rel="stylesheet" href="stylesheets/etype.fonts.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.main.css?v=1.00"/>
-  <link rel="stylesheet" href="stylesheets/etype.home.css?v=1.00"/>
-  <link rel="stylesheet" href="stylesheets/etype.about.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.solutions.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.services.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.contactus.css"/>
+  <link rel="stylesheet" href="stylesheets/etype.main.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.home.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.about.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.solutions.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.services.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.contactus.css?v=1.02"/>
 </head>
 <body ng-controller="MainCtrl" ng-cloak>
+
     <div class="topsite">
     <div class="container">
         <div class="navbar">
             <div class="hr"></div>
             <a href="http://www.etype.co.il"><img width="181" height="67" alt="ETYPE" src="images/logo_top.png"/></a>
             <ul class="nav navbar-nav pull-right">
-                <li ng-repeat="page in pages"><a class="menu-link" ng-class="{'current': currentPage==page.navCat}" ng-click="navigateTo(page)">{{page.navTitle}}</a></li>
+                <li ng-repeat="page in pages">
+                    <!--<a class="menu-link" ng-class="{'current': currentPage==page.navCat}" ng-click="navigateTo(page)">{{page.navTitle}}</a>-->
+                    <a class="menu-link" ng-class="{'current': page.current}" ng-click="navigateTo(page)">{{page.navTitle}}</a>
+                </li>
             </ul>
         </div>
     </div>
     </div>
-    <div ng-view></div>
+    <div class="app-main" ng-view></div>
 
     <div class="footer">
         <div class="container">
@@ -78,14 +79,17 @@
         </div>
 
     </div>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="lib/angular-file-upload-shim.min.js"></script>
 <script src="lib/angular.min.js"></script>
 <script src="lib/angular-route.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
-<script src="js/app.js"></script>
-<script src="js/services.js"></script>
-<script src="js/controllers.js"></script>
-<script src="js/filters.js"></script>
-<script src="js/directives.js"></script>
+<script src="js/app.js?v=1.02"></script>
+<script src="js/services.js?v=1.02"></script>
+<script src="js/controllers.js?v=1.02"></script>
+<script src="js/filters.js?v=1.02"></script>
+<script src="js/directives.js?v=1.02"></script>
+<script src="lib/angular-file-upload.min.js"></script>
 </body>
 </html>

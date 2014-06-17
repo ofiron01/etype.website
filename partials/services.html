@@ -39,7 +39,8 @@
         </div>
 
         <p class="page-text">
-            <img alt="ETYPE" src="images/capital_e.png" style="float: left" />Type develops and implements solutions for digital recordings and the production of protocols, with audio.
+            <img alt="ETYPE" src="images/capital_e.png" style="float: left" />
+            Type develops and implements solutions for digital recordings and the production of protocols, with audio.
         </p>
         <p class="page-text">
             These innovative solutions are unique to eType and allow for better transparency and use of textual protocols.
@@ -50,41 +51,47 @@
     </div>
 </div>
 <div class="container" style="margin-bottom: 200px;">
+
     <div class="title-black upload-a-file">
         <img src="images/about_ornament1.png"/>
         upload a file
         <img src="images/about_ornament1.png"/><br/>
         <span class="recieve-offer">AND YOU'LL RECIEVE AN OFFER IN 24 HOURS</span>
 
+        <form name="contactForm">
         <div class="upload-a-file-fake" >
-            <input type="file"  />
+            <div class="placeholder">{{fileUploadResponseData.message}}</div>
+            <input type="file" name="file" ng-file-select="onFileSelect($files)"   />
         </div>
-
-            <div class="styled-select" style="margin-left: 20px">
-                <select>
-                    <option>Choose your language</option>
-                </select>
-            </div>
-
-            <div class="styled-select">
-                <select>
-                    <option>Destination language</option>
-                </select>
-            </div>
-
-
+        <div class="styled-select dropdown" style="margin-left: 20px">
+            <lang-select
+                    languages-collection="inputLanguages"
+                    initial-text="Choose your language"
+                    link-form-model="contactDetails.inputLanguage" />
+        </div>
+        <div class="styled-select dropdown">
+            <lang-select
+                    languages-collection="outputLanguages"
+                    initial-text="Destination language"
+                    link-form-model="contactDetails.outputLanguage" />
+        </div>
         <div style="width: 665px; height: 120px; margin: 0 auto;">
-        <div class="col-xs-6"><input type="text" class="services-form-input" placeholder="Your Name" /></div>
-        <div class="col-xs-6"><input type="text" class="services-form-input" placeholder="Organization" /></div>
-        <div class="col-xs-6"><input type="text" class="services-form-input" placeholder="Email" /></div>
-        <div class="col-xs-6"><input type="text" class="services-form-input" placeholder="Phone" /></div>
+
+            <div class="col-xs-6"><input ng-model="contactDetails.Name" required ng-minlength="2" class="services-form-input" placeholder="Your Name" /></div>
+            <div class="col-xs-6"><input ng-model="contactDetails.Organiztion" required  ng-minlength="2" class="services-form-input" placeholder="Organization" /></div>
+            <div class="col-xs-6"><input ng-model="contactDetails.Email" required ng-minlength="2" class="services-form-input" placeholder="E-Mail" /></div>
+            <div class="col-xs-6"><input ng-model="contactDetails.Phone" required ng-minlength="2" class="services-form-input" placeholder="Phone" /></div>
+            <input type="hidden" ng-model="contactDetails.Filename" />
+            <input type="hidden" required ng-model="contactDetails.inputLanguage" />
+            <input type="hidden" required ng-model="contactDetails.outputLanguage" />
+            <button id="contactFormSubmitBtn" type="submit" class="form-submit"
+                        ng-disabled="contactForm.$invalid || contactForm.$pristine || sendInProgress || fileUploadResponseData.status=='failed'"
+                        ng-click="onFormSubmit(contactDetails, contactForm)">{{sendButtonText || 'SEND'}}</button>
+
+            <p class="page-text"></p>
         </div>
-
-
+        </form>
     </div>
-    <div class="form-submit">
-        SEND
-    </div>
+
 </div>
-
 

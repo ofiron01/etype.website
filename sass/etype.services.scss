@@ -25,6 +25,23 @@ div.upload-a-file {
     overflow: hidden;
     margin: 10px 0 13px 141px;
     cursor: pointer;
+
+
+    div.placeholder {
+
+      width:520px;
+      font-family: $MUSEO_SLAB;
+      font-size: 16px;
+      color: #50616c;
+      position: relative;
+      top:17px;
+      text-align: left;
+      padding-left: 30px;
+      font-weight: bold;
+
+
+
+    }
     &:hover {
       background-position: -657px 0;
     }
@@ -49,14 +66,14 @@ div.upload-a-file {
   div.styled-select {
     width: 324px;
     height: 54px;
-    overflow: hidden;
+/*    //overflow: hidden;*/
     background: url(../images/services_form_field3.png) no-repeat;
     text-align: center;
     display: inline-block;
     margin-bottom: 30px;
 
 
-    select {
+/*    select {
       &:focus {
         outline: none;
       }
@@ -80,7 +97,7 @@ div.upload-a-file {
         color:$SITE_BODY_TEXT;
       }
 
-    }
+    } */
 
   }
 
@@ -112,8 +129,17 @@ input.services-form-input {
   text-align: center;
   width: 325px;
   height: 54px;
-  background: transparent url(../images/services_form_field2.png) no-repeat;
+  background: transparent url(../images/services_form_field2.png?v=1.01) no-repeat;
   border: none;
   margin-bottom: 10px;
   outline: none;
+  &:required { /*firefox*/
+    box-shadow:none;
+  }
+
+}
+
+input.ng-invalid:not(.ng-pristine) {
+  color: #ff0000;
+  background-position: -325px 0;
 }

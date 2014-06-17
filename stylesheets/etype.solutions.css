@@ -20,6 +20,8 @@ h2 { text-align: center; }
 .orange { color: #f6b42c; }
 .orange:hover { color: #f6b42c; }
 
+.app-main { min-height: 700px; }
+
 .center-box { padding: 25px; text-align: center; }
 
 .text-link { text-decoration: none; cursor: pointer; }
@@ -37,8 +39,9 @@ p.page-text-small { font-size: 14px; }
 
 div.title-black { text-align: center; font: 41px "ChunkFive"; }
 
-div.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
-div.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
+button.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; background-color: transparent; border-left: none; border-right: none; outline: none; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+button.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
+button.form-submit[disabled] { color: #cccccc; border-top: thin solid #cccccc; border-bottom: thin solid #cccccc; cursor: default; }
 
 div.element { width: 683px; height: 1019px; position: absolute; right: -40px; top: 150px; }
 @media screen and (max-width: 1700px) { div.element { right: -150px; } }
@@ -66,8 +69,9 @@ div.solution-name1 { height: 30px; font: 24px "MuseoSlab"; color: #63a69f; text-
 
 div.solution-desc1 { font: 16px "MuseoSlab"; color: #50616c; text-align: center; height: 110px; }
 
-div.learn-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: background-color 0.15s ease-out; -moz-transition: background-color 0.15s ease-out; -o-transition: background-color 0.15s ease-out; transition: background-color 0.15s ease-out; }
-div.learn-more.active { background-color: #ebede4; border: none; cursor: default; }
+div.learn-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.learn-more:hover { color: #f6b42c; border-color: #f6b42c; }
+div.learn-more.active { color: #63a69f; background-color: #ebede4; border: none; cursor: default; }
 
 div.learn-more-filler { width: 140px; height: 15px; margin-right: auto; margin-left: auto; background-color: transparent; -webkit-transition: background-color 0.15s ease-out; -moz-transition: background-color 0.15s ease-out; -o-transition: background-color 0.15s ease-out; transition: background-color 0.15s ease-out; }
 

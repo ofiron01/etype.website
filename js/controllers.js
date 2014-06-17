@@ -5,30 +5,17 @@
 angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
   // MAIN CONTROLLER
-  .controller('MainCtrl', ['$scope', '$location', 'Data', function($scope, $location, Data){
+  .controller('MainCtrl', ['$scope', '$location', 'dataService', '$anchorScroll', function($scope, $location, dataService, $anchorScroll){
 
 
-        $scope.websiteName = Data.websiteName;
-        $scope.currentPage =  $location.path().substr(1);
-        if ($scope.currentPage == '') $scope.currentPage = 'home';
+        $scope.websiteName = dataService.websiteName;
+        $scope.pages = dataService.pages;
+        $scope.solutions = dataService.solutions;
+
+       /* $scope.currentPage =  $location.path().substr(1);
+        if ($scope.currentPage.indexOf('solutions/') > -1) $scope.currentPage = 'solutions';
+        if ($scope.currentPage == '') $scope.currentPage = 'home';*/
         //else if ($scope.currentPage.valueOf('solutions/') > -1) $scope.currentPage = 'solutions';
-
-        $scope.pages = [
-            {pageTitle: $scope.websiteName + ' | Home', navTitle: 'Home', navURL: 'home', navCat: 'home'},
-            {pageTitle: $scope.websiteName + ' | About', navTitle: 'About', navURL: 'about', navCat: 'about'},
-            {pageTitle: $scope.websiteName + ' | Solutions', navTitle: 'Solutions', navURL: 'solutions', navCat: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | Services', navTitle: 'Services', navURL: 'services', navCat: 'services'},
-            {pageTitle: $scope.websiteName + ' | Contact us', navTitle: 'Contact us', navURL: 'contactus', navCat: 'contactus'},
-        ];
-
-        $scope.solutions = [
-            {pageTitle: $scope.websiteName + ' | eParliament', navTitle: 'eParliament', navURL: 'solutions/eParliament', navCat: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | eProduction', navTitle: 'eProduction', navURL: 'solutions/eProduction', navCat: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | eCorporate', navTitle: 'eCorporate', navURL: 'solutions/eCorporate', navCat: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | eLaw', navTitle: 'eLaw', navURL: 'solutions/eLaw', navCat: 'solutions'},
-            {pageTitle: $scope.websiteName + ' | eSchool', navTitle: 'eSchool', navURL: 'solutions/eSchool', navCat: 'solutions'}
-        ];
-
 
         $scope.navigateTo = function(page) {
             $scope.currentPage = page.navCat;
@@ -36,26 +23,74 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
         };
 
+        $scope.detectRoute = function() {
+            $anchorScroll();
+            angular.forEach($scope.pages, function(item) {
+                item.current = $location.path().match(new RegExp(item.navURL)) ? true : false;
+            });
+        };
+
+        $scope.$on('$routeChangeSuccess', $scope.detectRoute);
 
   }])
 
-    // SOLUTIONS PAGE
-    .controller('SolutionsCtrl', ['$scope', '$location', function($scope, $location){
-        $scope.navigateToSolution = function(page) {
+    .controller('ServicesCtrl', function($scope, contactFormService, submitBtn, $timeout, fileUploadSerivce) {
 
-            $location.path(page);
+        contactFormService.config = {
+            "client": "ETYPE",
+            "replyTo": "sales@etype.co.il",
+            "replyToName": "ETYPE | Sales",
+            "from":"contact@etype.co.il",
+            "fromName":"ETYPE",
+            "to": "ofiron01@gmail.com",
+            "script": "srv/handler/?action=sendform",
+            "subject": "ETYPE | Website contact form"
+        };
+
+        $scope.sendInProgress = false;
+        $scope.sendButtonText = 'SEND';
+        $scope.fileUploadResponseData = {
+            status: 'failed',
+            message: 'Please upload a file (.doc, .docx, .pdf, .txt, .rtf)'
+        };
+
+        $scope.onFileSelect = function(files) {
+
+            fileUploadSerivce.onFileSelect($scope, files);
 
         };
 
-    }])
+        $scope.onFormSubmit = function(contactDetails, contactForm) {
+
+            if (contactForm.$valid) {
+
+                contactDetails.Filename = $scope.fileUploadResponseData.filename;
+
+                submitBtn.alter($scope, 'PLEASE WAIT...', true);
+                contactFormService.submitForm(contactDetails, contactFormService.config).then(function(data) {
+
+                    //on sucess
+                    contactForm.$setPristine();
+                    $scope.contactDetails = {};
+                    submitBtn.alter($scope, 'THANK YOU', true);
+                    $timeout(function() {
+                        submitBtn.alter($scope, 'SEND', false);
+                    },2000);
 
 
-    .controller('SolutionsEParliamentCtrl', ['$scope', function($scope){
+                }, function(status) {
+                    // on error
+                    submitBtn.alter($scope, 'ERROR OCCURED', true);
+                    $timeout(function() {
+                        submitBtn.alter($scope, 'SEND', false);
+                    },2000);
+                });
 
-        $scope.activeSolutionInfo = 1;
+            }
 
-        $scope.learnAboutSolution = function(solutionInfoID) {
-            $scope.activeSolutionInfo = solutionInfoID;
-        }
+        };
 
-    }]);
+    });
+
+
+

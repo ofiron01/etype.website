@@ -7,14 +7,15 @@ var eTypeWebsite = angular.module('eTypeWebsite', [
   'eTypeWebsite.filters',
   'eTypeWebsite.services',
   'eTypeWebsite.directives',
-  'eTypeWebsite.controllers'
+  'eTypeWebsite.controllers',
+  'angularFileUpload'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html'});
   $routeProvider.when('/about', {templateUrl: 'partials/about.html'});
   $routeProvider.when('/solutions', {templateUrl: 'partials/solutions.html'});
-  $routeProvider.when('/services', {templateUrl: 'partials/services.html'});
-  $routeProvider.when('/contactus', {templateUrl: 'partials/contactus.html'});
+  $routeProvider.when('/services', {templateUrl: 'partials/services.html', controller: 'ServicesCtrl'});
+  $routeProvider.when('/contactus', {templateUrl: 'partials/contactus.html', controller: 'ServicesCtrl'});
 
   $routeProvider.when('/solutions/eParliament', {templateUrl: 'partials/solutions.eparliament.html'});
   $routeProvider.when('/solutions/eProduction', {templateUrl: 'partials/solutions.eproduction.html'});
