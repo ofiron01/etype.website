@@ -3,23 +3,23 @@
 <!--[if IE 7]>         <html lang="en" ng-app="eTypeWebsite" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="eTypeWebsite" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" ng-app="eTypeWebsite" class="no-js" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html lang="en" ng-app="eTypeWebsite" ng-controller="MainCtrl" class="no-js" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
-  <title>E TYPE</title>
+  <title ng-bind="getTitle()"></title>
   <link rel="stylesheet" href="stylesheets/screen.css"/>
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
   <link rel="stylesheet" href="stylesheets/etype.fonts.css"/>
-  <link rel="stylesheet" href="stylesheets/etype.main.css?v=1.02"/>
-  <link rel="stylesheet" href="stylesheets/etype.home.css?v=1.02"/>
-  <link rel="stylesheet" href="stylesheets/etype.about.css?v=1.02"/>
-  <link rel="stylesheet" href="stylesheets/etype.solutions.css?v=1.02"/>
-  <link rel="stylesheet" href="stylesheets/etype.services.css?v=1.02"/>
-  <link rel="stylesheet" href="stylesheets/etype.contactus.css?v=1.02"/>
+  <link rel="stylesheet" href="stylesheets/etype.main.css?v=1.06"/>
+  <link rel="stylesheet" href="stylesheets/etype.home.css?v=1.06"/>
+  <link rel="stylesheet" href="stylesheets/etype.about.css?v=1.06"/>
+  <link rel="stylesheet" href="stylesheets/etype.solutions.css?v=1.06"/>
+  <link rel="stylesheet" href="stylesheets/etype.services.css?v=1.06"/>
+  <link rel="stylesheet" href="stylesheets/etype.contactus.css?v=1.06"/>
 </head>
-<body ng-controller="MainCtrl" ng-cloak>
+<body  ng-cloak>
 
     <div class="topsite">
     <div class="container">
@@ -85,11 +85,11 @@
 <script src="lib/angular-route.min.js"></script>
 <script src="lib/bootstrap.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
-<script src="js/app.js?v=1.02"></script>
-<script src="js/services.js?v=1.02"></script>
-<script src="js/controllers.js?v=1.02"></script>
-<script src="js/filters.js?v=1.02"></script>
-<script src="js/directives.js?v=1.02"></script>
+<script src="js/app.js?v=1.07"></script>
+<script src="js/services.js?v=1.07"></script>
+<script src="js/controllers.js?v=1.07"></script>
+<script src="js/filters.js?v=1.07"></script>
+<script src="js/directives.js?v=1.07"></script>
 <script src="lib/angular-file-upload.min.js"></script>
 </body>
 </html>

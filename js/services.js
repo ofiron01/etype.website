@@ -4,27 +4,55 @@
 angular.module('eTypeWebsite.services', []);
 
 eTypeWebsite.factory('dataService', function(){
+
+    var websiteName = function() { return  'ETYPE' };
+
     return {
 
-        websiteName : 'ETYPE',
+        getPageByName: function(arr,name) {
+
+            var returnVal = 0;
+            $(arr).each(function(index, value) {
+                if (this.navTitle == name) returnVal = index;
+            });
+
+            return returnVal;
+        },
+
         pages: [
-            {pageTitle: this.websiteName + ' | Home', navTitle: 'Home', navURL: 'home', navCat: 'home'},
-            {pageTitle: this.websiteName + ' | About', navTitle: 'About', navURL: 'about', navCat: 'about'},
-            {pageTitle: this.websiteName + ' | Solutions', navTitle: 'Solutions', navURL: 'solutions', navCat: 'solutions'},
-            {pageTitle: this.websiteName + ' | Services', navTitle: 'Services', navURL: 'services', navCat: 'services'},
-            {pageTitle: this.websiteName + ' | Contact us', navTitle: 'Contact us', navURL: 'contactus', navCat: 'contactus'},
+            {pageTitle: websiteName() + ' | Home', navTitle: 'Home', navURL: 'home', navCat: 'home'},
+            {pageTitle: websiteName() + ' | About', navTitle: 'About', navURL: 'about', navCat: 'about'},
+            {pageTitle: websiteName() + ' | Solutions', navTitle: 'Solutions', navURL: 'solutions', navCat: 'solutions'},
+            {pageTitle: websiteName() + ' | Services', navTitle: 'Services', navURL: 'services', navCat: 'services'},
+            {pageTitle: websiteName() + ' | Contact us', navTitle: 'Contact us', navURL: 'contactus', navCat: 'contactus'},
         ],
 
         solutions: [
-            {pageTitle: this.websiteName + ' | eParliament', navTitle: 'eParliament', navURL: 'solutions/eParliament', navCat: 'solutions'},
-            {pageTitle: this.websiteName + ' | eProduction', navTitle: 'eProduction', navURL: 'solutions/eProduction', navCat: 'solutions'},
-            {pageTitle: this.websiteName + ' | eCorporate', navTitle: 'eCorporate', navURL: 'solutions/eCorporate', navCat: 'solutions'},
-            {pageTitle: this.websiteName + ' | eLaw', navTitle: 'eLaw', navURL: 'solutions/eLaw', navCat: 'solutions'},
-            {pageTitle: this.websiteName + ' | eSchool', navTitle: 'eSchool', navURL: 'solutions/eSchool', navCat: 'solutions'}
+            {pageTitle: websiteName() + ' | Solutions - eParliament', navTitle: 'eParliament', navURL: 'solutions/eParliament', navCat: 'solutions'},
+            {pageTitle: websiteName() + ' | Solutions - eProduction', navTitle: 'eProduction', navURL: 'solutions/eProduction', navCat: 'solutions'},
+            {pageTitle: websiteName() + ' | Solutions - eCorporate', navTitle: 'eCorporate', navURL: 'solutions/eCorporate', navCat: 'solutions'},
+            {pageTitle: websiteName() + ' | Solutions - eLaw', navTitle: 'eLaw', navURL: 'solutions/eLaw', navCat: 'solutions'},
+            {pageTitle: websiteName() + ' | Solutions - eSchool', navTitle: 'eSchool', navURL: 'solutions/eSchool', navCat: 'solutions'}
         ]
 
     };
 })
+
+
+.factory('pageTitle', function() {
+
+    var _title = 'ETYPE | Home';
+    return {
+        title: function() {
+            return _title;
+        },
+        setTitle: function(title) {
+            _title = title;
+        }
+    }
+
+})
+
 
 
 .factory('fileUploadSerivce', function($upload) {

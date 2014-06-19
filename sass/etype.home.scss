@@ -17,13 +17,15 @@ div.slogan {
   margin-top: 50px;
   margin-bottom: 50px;
 
-  div.col-md-4 {
+  div.col-xs-4 {
     @include push-right;
+    text-wrap: normal;
+    text-align: justify;
     font: 16px $MUSEO_SLAB, Arial, sans-serif;
     color:$SITE_BODY_TEXT;
 
   }
-  div.col-md-8 {
+  div.col-xs-8 {
     @include push-left;
   }
 
@@ -31,6 +33,7 @@ div.slogan {
     width: 318px;
     height: 165px;
     background: url(../images/hp_plate1.png) no-repeat;
+    margin-top:40px;
     cursor: pointer;
   }
 }
@@ -72,38 +75,64 @@ div.slogan {
     display: block;
     width: 225px;
     height: 224px;
+  }
 
-    &:hover {
-      @include scale(1.05);
-    }
+  a.badge-trans-animate {
+    @include transition(all 0.1s ease-in);
+  }
 
+  a.hp_icon0_stamp {
+    background: url("../images/hp_stamp1.png") no-repeat;
+    top:35px;
+    left:90px;
 
   }
-  a.hp_stamp1 {
-    background: url("../images/hp_stamp1.png") no-repeat;
+  a.hp_icon1_stamp {
+    background: url("../images/hp_stamp1_5.png") no-repeat;
+    left:380px;
     top:30px;
-    left:100px;
+  }
+  a.hp_icon2_stamp {
+    background: url("../images/hp_stamp1_2.png") no-repeat;
+    left:660px;
+    top:35px;
+  }
+  a.hp_icon3_stamp {
+    background: url("../images/hp_stamp1_3.png") no-repeat;
+    left:220px;
+    top:210px;
+  }
+  a.hp_icon4_stamp {
+    background: url("../images/hp_stamp1_4.png") no-repeat;
+    left:520px;
+    top:210px;
+  }
+
+  a.hp_icon0 {
+    background: url("../images/hp_icon0.png") no-repeat;
+    top:55px;
+    left:90px;
   }
 
   a.hp_icon1 {
     background: url("../images/hp_icon1.png") no-repeat;
-    left:400px;
+    left:390px;
     top:70px;
   }
   a.hp_icon2 {
     background: url("../images/hp_icon2.png") no-repeat;
-    left:680px;
+    left:670px;
     top:58px;
   }
   a.hp_icon3 {
     background: url("../images/hp_icon3.png") no-repeat;
-    left:250px;
+    left:230px;
     top:260px;
 
   }
   a.hp_icon4 {
     background: url("../images/hp_icon4.png") no-repeat;
-    left:550px;
+    left:530px;
     top:260px;
   }
 
@@ -112,21 +141,24 @@ div.slogan {
     color:#000000;
     text-decoration: none;
     position: absolute;
-
   }
 
-  span.hp-icon-0 {
+  span.hp-stamp {
     font-size: 14px;
     text-align: center;
     width: 170px;
     margin:90px 0 0 30px;
   }
-  span.hp-icon-0-2 {
+  span.hp-stamp-2 {
     font-size: 14px;
     text-align: center;
     width: 170px;
     margin:170px 0 0 30px;
     color:#ffffff;
+  }
+
+  span.hp-icon-0 {
+    margin:95px 0 0 50px;
   }
 
   span.hp-icon-1 {
@@ -159,7 +191,7 @@ div.slogan {
 
   }
 
-  div.col-md-4 p {
+  div.col-xs-4 p {
     text-wrap: normal;
     text-align: justify;
     margin-right:-18px;

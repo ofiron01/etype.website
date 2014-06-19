@@ -1,11 +1,9 @@
 'use strict';
 
-/* Controllers */
-
 angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
-  // MAIN CONTROLLER
-  .controller('MainCtrl', ['$scope', '$location', 'dataService', '$anchorScroll', function($scope, $location, dataService, $anchorScroll){
+
+  .controller('MainCtrl', ['$scope', '$location', 'dataService', '$anchorScroll', 'pageTitle', function($scope, $location, dataService, $anchorScroll, pageTitle){
 
 
         $scope.websiteName = dataService.websiteName;
@@ -23,6 +21,10 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
         };
 
+        $scope.getTitle = function() {
+           return pageTitle.title();
+        };
+
         $scope.detectRoute = function() {
             $anchorScroll();
             angular.forEach($scope.pages, function(item) {
@@ -32,9 +34,31 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
         $scope.$on('$routeChangeSuccess', $scope.detectRoute);
 
+        //preload site images
+        $(['images/hp_stamp1.png',
+           'images/hp_stamp1_2.png',
+           'images/hp_stamp1_3.png',
+           'images/hp_stamp1_4.png',
+           'images/hp_stamp1_5.png',
+           'images/solution_element.png',
+           'images/solutions_element2.png',
+           'images/solutions_element3.png',
+           'images/solutions_element4.png',
+           'images/solutions_element5.png',
+        ]).each(function(){
+            $('<img/>')[0].src = this;
+        });
+
   }])
 
-    .controller('ServicesCtrl', function($scope, contactFormService, submitBtn, $timeout, fileUploadSerivce) {
+    .controller('ServicesCtrl', function($scope, contactFormService, submitBtn, $timeout, $location, fileUploadSerivce, pageTitle, dataService) {
+
+        console.log($location);
+        if ($location.path() == '/services')
+            pageTitle.setTitle(dataService.pages[dataService.getPageByName(dataService.pages,'Services')].pageTitle);
+        else if ($location.path() == '/contactus')
+            pageTitle.setTitle(dataService.pages[dataService.getPageByName(dataService.pages,'Contact us')].pageTitle);
+
 
         contactFormService.config = {
             "client": "ETYPE",
@@ -42,7 +66,7 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
             "replyToName": "ETYPE | Sales",
             "from":"contact@etype.co.il",
             "fromName":"ETYPE",
-            "to": "ofiron01@gmail.com",
+            "to": "sales@etype.co.il",
             "script": "srv/handler/?action=sendform",
             "subject": "ETYPE | Website contact form"
         };
@@ -90,7 +114,33 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
         };
 
+    })
+
+    .controller('HomeCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.pages[dataService.getPageByName(dataService.pages, 'Home')].pageTitle);
+    }).
+    controller('SolutionsCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.pages[dataService.getPageByName(dataService.pages, 'Solutions')].pageTitle);
+    }).
+    controller('AboutCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.pages[dataService.getPageByName(dataService.pages, 'About')].pageTitle);
+    }).
+    controller('eParliamentCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.solutions[dataService.getPageByName(dataService.solutions, 'eParliament')].pageTitle);
+    }).
+    controller('eProductionCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.solutions[dataService.getPageByName(dataService.solutions, 'eProduction')].pageTitle);
+    }).
+    controller('eCorporateCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.solutions[dataService.getPageByName(dataService.solutions, 'eCorporate')].pageTitle);
+    }).
+    controller('eLawCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.solutions[dataService.getPageByName(dataService.solutions, 'eLaw')].pageTitle);
+    }).
+    controller('eSchoolCtrl', function(pageTitle, dataService){
+        pageTitle.setTitle(dataService.solutions[dataService.getPageByName(dataService.solutions, 'eSchool')].pageTitle);
     });
+
 
 
 

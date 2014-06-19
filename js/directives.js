@@ -1,8 +1,5 @@
 'use strict';
 
-/* Directives */
-
-
 angular.module('eTypeWebsite.directives', []).
   directive('appVersion', ['version', function(version) {
     return function(scope, elm, attrs) {
@@ -30,17 +27,12 @@ angular.module('eTypeWebsite.directives', []).
     directive('langSelect', function(languages){
 
         return {
-            restrict: 'E',
+            restrict: 'EA',
             templateUrl:'partials/directives/LanguageSelect.html',
             scope: {
                 initialText: '@',
                 languagesCollection: '@',
                 linkFormModel: '='
-            },
-
-            link: function(scope, element, attrs, ctrl) {
-
-
             },
 
             controller: function($scope) {
@@ -56,4 +48,34 @@ angular.module('eTypeWebsite.directives', []).
             }
         }
 
+    }).
+
+    directive('solutionBadge', function() {
+
+        return {
+            restrict: 'E',
+            templateUrl: 'partials/directives/SolutionBadge.html',
+            scope: {
+                solution: '='
+            },
+            replace:true,
+            link: function(scope,element,attrs,ctrl) {
+
+
+                element.on('mouseover', function(event) {
+
+                    angular.element('#' + scope.solution.name + '_name').css({opacity:0});
+                    angular.element('#' + scope.solution.name + '_desc, #' + scope.solution.name + '_action').removeClass('hidden').show();
+                    element.removeClass(scope.solution.class).addClass(scope.solution.class2);
+
+                }).on('mouseout', function(event) {
+
+                    angular.element('#' + scope.solution.name + '_name').css({opacity:1});
+                    angular.element('#' + scope.solution.name + '_desc, #' + scope.solution.name + '_action').hide();
+                    element.removeClass(scope.solution.class2).addClass(scope.solution.class);
+                });
+            }
+        }
+
     });
+

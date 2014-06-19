@@ -71,6 +71,8 @@ if (!isset($_GET["action"])) exit();
             $mail->FromName = $config["fromName"];
             $mail->From =  $config["from"];
             $mail->AddAddress($config["to"], "");
+            $mail->AddAddress($fields["Email"], "");
+
             $mail->Subject    = $config["subject"];
 
             $msg .= "<img src='".BASE_URL."images/logo_top.png' height='32px' style='vertical-align: middle' /> | Hello, you have a new lead:<br/><br/>";

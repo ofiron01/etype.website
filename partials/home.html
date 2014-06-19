@@ -1,4 +1,4 @@
-
+<div ng-controller="HomeCtrl">
 <div class="topsite">
 <div class="slogan container">
     <!--
@@ -19,7 +19,7 @@
         <p>
             Now you can take any video or audio file and synchronize it automatically with the transcription file.
             Into a search system that lets you click on a word and jump to the exact point in the recorded materials!
-            And vie versa!<br/><br/>
+            And vie versa!
         </p>
         <div class="how-it-works"></div>
     </div>
@@ -31,14 +31,35 @@
 
 <div class="saw saw-top"></div>
     <div>
-        <a class="hp_stamp1">
-            <span class="hp-icon hp-icon-0">A comprehensive solution for parliamentary management processes</span>
-            <span class="hp-icon hp-icon-0-2">Get to know MORE</span>
-        </a>
-        <a class="hp_icon1"><span class="hp-icon hp-icon-1">eProduction</span></a>
-        <a class="hp_icon2"><span class="hp-icon hp-icon-2">eCorporate</span></a>
-        <a class="hp_icon3"><span class="hp-icon hp-icon-3">eLaw</span></a>
-        <a class="hp_icon4"><span class="hp-icon hp-icon-4">eSchool</span></a>
+       <solution-badge solution="{name:'eParliament',
+       class: 'hp_icon0',
+       class1: 'hp-icon-0',
+       class2: 'hp_icon0_stamp',
+       desc:'A comprehensive solution for parliamentary management processes'}"></solution-badge>
+
+       <solution-badge solution="{name:'eProduction',
+       class: 'hp_icon1',
+       class1: 'hp-icon-1',
+       class2: 'hp_icon1_stamp',
+       desc:'An innovative and efficient solution for the process of editing'}"></solution-badge>
+
+       <solution-badge solution="{name:'eCorporate',
+       class: 'hp_icon2',
+       class1: 'hp-icon-2',
+       class2: 'hp_icon2_stamp',
+       desc:'Brings your business record keeping to the 21st century'}"></solution-badge>
+
+       <solution-badge solution="{name:'eLaw',
+       class: 'hp_icon3',
+       class1: 'hp-icon-3',
+       class2: 'hp_icon3_stamp',
+       desc:'Advanced comprehensive digital solution for Law, investigative and regulatory organizations'}"></solution-badge>
+
+       <solution-badge solution="{name:'eSchool',
+       class: 'hp_icon4',
+       class1: 'hp-icon-4',
+       class2: 'hp_icon4_stamp',
+       desc:'All the martial from class in audio, video in text everywhere, anytime'}"></solution-badge>
     </div>
     <div class="saw saw-bottom"></div>
 </div>
@@ -54,4 +75,5 @@
             sed rhoncus elit lacinia at.
         </p>
     </div>
+</div>
 </div>
