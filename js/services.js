@@ -33,6 +33,10 @@ eTypeWebsite.factory('dataService', function(){
             {pageTitle: websiteName() + ' | Solutions - eCorporate', navTitle: 'eCorporate', navURL: 'solutions/eCorporate', navCat: 'solutions'},
             {pageTitle: websiteName() + ' | Solutions - eLaw', navTitle: 'eLaw', navURL: 'solutions/eLaw', navCat: 'solutions'},
             {pageTitle: websiteName() + ' | Solutions - eSchool', navTitle: 'eSchool', navURL: 'solutions/eSchool', navCat: 'solutions'}
+        ],
+
+        miniSolutions: [
+            'syncType', 'syncRecord', 'syncMNG', 'syncPlayer'
         ]
 
     };

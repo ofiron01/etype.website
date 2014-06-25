@@ -22,6 +22,7 @@ div.upload-a-file {
     width: 657px;
     height: 54px;
     background: url(../images/services_form_field1.png) no-repeat;
+    background-position: -657px 0;
     overflow: hidden;
     margin: 10px 0 13px 141px;
     cursor: pointer;
@@ -43,7 +44,7 @@ div.upload-a-file {
 
     }
     &:hover {
-      background-position: -657px 0;
+      background-position: 0 0;
     }
     //@include transition(background-position 0.05s ease-out);
 
@@ -71,6 +72,7 @@ div.upload-a-file {
     text-align: center;
     display: inline-block;
     margin-bottom: 30px;
+    font: bold 16px $MUSEO_SLAB;
 
 
 /*    select {
@@ -106,7 +108,7 @@ div.upload-a-file {
 
 div.services-form-submit {
   color:#ea5e55;
-  font: 14px $MUSEO_SLAB;
+  font: bold 14px $MUSEO_SLAB;
   border-top: thin solid #ea5e55;
   border-bottom: thin solid #ea5e55;
   width: 140px;

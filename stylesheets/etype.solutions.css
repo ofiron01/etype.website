@@ -39,7 +39,7 @@ p.page-text-small { font-size: 14px; }
 
 div.title-black { text-align: center; font: 41px "ChunkFive"; }
 
-button.form-submit { color: #ea5e55; font: 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; background-color: transparent; border-left: none; border-right: none; outline: none; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+button.form-submit { color: #ea5e55; font: bold 14px "MuseoSlab"; border-top: thin solid #ea5e55; border-bottom: thin solid #ea5e55; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; background-color: transparent; border-left: none; border-right: none; outline: none; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
 button.form-submit:hover { color: #f6b42c; border-color: #f6b42c; }
 button.form-submit[disabled] { color: #cccccc; border-top: thin solid #cccccc; border-bottom: thin solid #cccccc; cursor: default; }
 
@@ -59,19 +59,19 @@ div.element4 { background: url("../images/solutions_element4.png") no-repeat; }
 
 div.element5 { background: url("../images/solutions_element5.png") no-repeat; }
 
-ul.solutions-star-points li { margin: 0 0 10px 15px; }
+ul.solutions-star-points li { margin: 0 0 10px 15px; font: 16px "MuseoSlab"; }
 
 div.solution-slogan { font: 41px "ChunkFive"; color: #000000; }
 
 div.solution-box div.solution-icon { text-align: center; margin-right: auto; margin-left: auto; padding: 15px 0 7px 0; }
 
-div.solution-name1 { height: 30px; font: 24px "MuseoSlab"; color: #63a69f; text-align: center; margin: 0px 0 10px 0; }
+div.solution-name1 { height: 30px; font: bold 24px "MuseoSlab"; color: #63a69f; text-align: center; margin: 0px 0 10px 0; }
 
 div.solution-desc1 { font: 16px "MuseoSlab"; color: #50616c; text-align: center; height: 110px; }
 
-div.learn-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
+div.learn-more { color: #63a69f; font: 14px Myriad, Times New Roman, sans-serif; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
 div.learn-more:hover { color: #f6b42c; border-color: #f6b42c; }
-div.learn-more.active { color: #63a69f; background-color: #ebede4; border: none; cursor: default; }
+div.learn-more.active { font-family: "MuseoSlab"; color: #63a69f; background-color: #ebede4; border: none; cursor: default; padding-left: 5px; padding-right: 5px; }
 
 div.learn-more-filler { width: 140px; height: 15px; margin-right: auto; margin-left: auto; background-color: transparent; -webkit-transition: background-color 0.15s ease-out; -moz-transition: background-color 0.15s ease-out; -o-transition: background-color 0.15s ease-out; transition: background-color 0.15s ease-out; }
 
@@ -88,16 +88,16 @@ div.solutions-con a.hp_icon1 { background: url("../images/hp_icon1.png") 5px 0 n
 div.solutions-con a.hp_icon2 { background: url("../images/hp_icon2.png") 5px 0 no-repeat; left: 650px; top: 58px; }
 div.solutions-con a.hp_icon3 { background: url("../images/hp_icon3.png") 5px 0 no-repeat; left: 220px; top: 460px; }
 div.solutions-con a.hp_icon4 { background: url("../images/hp_icon4.png") 5px 0 no-repeat; left: 520px; top: 460px; }
-div.solutions-con span.hp-icon { font: 22px "MuseoSlab"; color: #000000; text-decoration: none; position: absolute; }
-div.solutions-con span.hp-icon-0 { margin: 100px 0 0 55px; }
-div.solutions-con span.hp-icon-1 { margin: 80px 0 0 55px; }
-div.solutions-con span.hp-icon-2 { margin: 95px 0 0 60px; }
+div.solutions-con span.hp-icon { font: 22px "MuseoSlab"; color: #000000; text-decoration: none; position: absolute; font-weight: bold; }
+div.solutions-con span.hp-icon-0 { margin: 100px 0 0 50px; }
+div.solutions-con span.hp-icon-1 { margin: 80px 0 0 48px; }
+div.solutions-con span.hp-icon-2 { margin: 95px 0 0 53px; }
 div.solutions-con span.hp-icon-3 { margin: 95px 0 0 85px; }
-div.solutions-con span.hp-icon-4 { margin: 95px 0 0 70px; }
+div.solutions-con span.hp-icon-4 { margin: 95px 0 0 65px; }
 
 img.solution-btn { position: relative; top: 160px; }
 
-p.solution-desc-short { position: relative; top: 160px; text-align: center; }
+p.solution-desc-short { position: relative; top: 160px; text-align: center; font-family: "MuseoSlab"; }
 
-div.view-more { color: #63a69f; font: 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; position: relative; top: 180px; }
+div.view-more { color: #63a69f; font: bold 14px "MuseoSlab"; border-top: thin solid #63a69f; border-bottom: thin solid #63a69f; width: 140px; text-align: center; margin-right: auto; margin-left: auto; padding: 5px; cursor: pointer; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out; position: relative; top: 180px; }
 div.view-more:hover { color: #f6b42c; border-color: #f6b42c; }

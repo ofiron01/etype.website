@@ -21,7 +21,7 @@ div.slogan {
     @include push-right;
     text-wrap: normal;
     text-align: justify;
-    font: 16px $MUSEO_SLAB, Arial, sans-serif;
+    font: 16px $MUSEO_SLAB;
     color:$SITE_BODY_TEXT;
 
   }
@@ -138,6 +138,7 @@ div.slogan {
 
   span.hp-icon {
     font: 22px $MUSEO_SLAB;
+    font-weight: bold;
     color:#000000;
     text-decoration: none;
     position: absolute;
@@ -148,6 +149,9 @@ div.slogan {
     text-align: center;
     width: 170px;
     margin:90px 0 0 30px;
+    font-family: "Myriad Pro";
+    font-weight: normal;
+
   }
   span.hp-stamp-2 {
     font-size: 14px;
@@ -158,23 +162,23 @@ div.slogan {
   }
 
   span.hp-icon-0 {
-    margin:95px 0 0 50px;
+    margin:95px 0 0 38px;
   }
 
   span.hp-icon-1 {
-    margin:80px 0 0 50px;
+    margin:80px 0 0 37px;
   }
 
   span.hp-icon-2 {
-    margin:95px 0 0 55px;
+    margin:95px 0 0 46px;
   }
 
   span.hp-icon-3 {
-    margin:95px 0 0 80px;
+    margin:95px 0 0 73px;
   }
 
   span.hp-icon-4 {
-    margin:95px 0 0 70px;
+    margin:95px 0 0 56px;
   }
 
 }

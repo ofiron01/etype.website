@@ -27,16 +27,17 @@ div.topsite {
 /* ===================== NAVBAR ITEMS ===============*/
 ul.navbar-nav li a {
   color: $NAV_TEXT_COLOLR;
-  font-weight: bold;
+  font-weight: bolder;
   font-size:18px;
   height: 92px;
-  font-family: $CHUNK_FIVE;
+  font-family: $MUSEO_SLAB;
   cursor: pointer;
 
 
   &.current {
     background-position: 0;
     color:$NAV_TEXT_COLOLR_CURRENT;
+    text-transform: uppercase;
     font-weight: normal;
     background: url(../images/navbar_selected_bg.png);
     @include background-size(100% 92px);
@@ -63,9 +64,10 @@ div.footer {
 
 
     div span.footer-title {
-      font-size: 45px;
+      font-size: 44px;
+      font-weight: mediam;
       color: $FOOTER_YELLOW;
-      font: $CHUNK_FIVE, Arail, sans-serif;
+      font-family: $CHUNK_FIVE;
     }
 
     ul.sitemap {
@@ -80,6 +82,7 @@ div.footer {
           color:#000000;
           font-size: 18px;
           font-weight: bold;
+          font-family: $MUSEO_SLAB;
 
           &:hover {
             color: #000000;
@@ -93,7 +96,8 @@ div.footer {
       padding:40px 0 7px 0;
       text-align: center;
       border-bottom: thin solid #000000;
-      font:16px $MUSEO_SLAB;
+      font:16px;
+      font-family: $MUSEO_SLAB;
 
       span.footer-bullet {
         color: $FOOTER_YELLOW;
@@ -102,6 +106,7 @@ div.footer {
 
     div.footer-close {
       padding: 20px 0 20px 0;
+      font-family: $MUSEO_SLAB;
     }
   }
 }

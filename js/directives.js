@@ -6,7 +6,7 @@ angular.module('eTypeWebsite.directives', []).
       elm.text(version);
     };
   }]).
-    directive('tabSelect', function(){
+    directive('tabSelect', function(dataService){
 
         return {
             restrict: 'AE',
@@ -15,9 +15,23 @@ angular.module('eTypeWebsite.directives', []).
 
                 scope.activeSolutionInfo = 1;
 
+
+
                 scope.learnAboutSolution = function(solutionInfoID) {
                     scope.activeSolutionInfo = solutionInfoID;
-                }
+
+                    angular.forEach(angular.element('.learn-more'), function(value, key) {
+
+                            value.innerHTML = 'LEARN MORE';
+                    });
+
+                    angular.element('.learn-more')[solutionInfoID-1].innerHTML = 'about ' + dataService.miniSolutions[solutionInfoID-1];
+
+                };
+
+                scope.learnAboutSolution(1);
+
+
 
             }
 

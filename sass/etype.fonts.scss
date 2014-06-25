@@ -14,3 +14,9 @@
     "lobster_1.3-webfont.ttf",
     "lobster_1.3-webfont.woff")
 );
+
+@include font-face($MUSEO_SLAB, font-files(
+    "museoslab.eot",
+    "museoslab.ttf",
+    "museoslab.woff")
+);
