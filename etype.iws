@@ -2,63 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b270767b-2467-4298-8e5b-20b136e4e041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/directives/SolutionBadge.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/defaults.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/defaults.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.contactus.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.contactus.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.home.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.home.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/about.html" afterPath="$PROJECT_DIR$/partials/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/defaults.scss" afterPath="$PROJECT_DIR$/sass/defaults.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/etype.home.css" afterPath="$PROJECT_DIR$/stylesheets/etype.home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/etype.home.scss" afterPath="$PROJECT_DIR$/sass/etype.home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.services.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.services.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.solutions.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.solutions.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.fonts.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75989ae4f595cc1669bef2829ceac5c429ef5fc9/etype.fonts.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etype.iws" afterPath="$PROJECT_DIR$/etype.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/etype.main.css" afterPath="$PROJECT_DIR$/stylesheets/etype.main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/srv/handler/index.php" afterPath="$PROJECT_DIR$/srv/handler/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/services.html" afterPath="$PROJECT_DIR$/partials/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.eCorporate.html" afterPath="$PROJECT_DIR$/partials/solutions.eCorporate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.elaw.html" afterPath="$PROJECT_DIR$/partials/solutions.elaw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.eparliament.html" afterPath="$PROJECT_DIR$/partials/solutions.eparliament.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.eproduction.html" afterPath="$PROJECT_DIR$/partials/solutions.eproduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.eschool.html" afterPath="$PROJECT_DIR$/partials/solutions.eschool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/solutions.html" afterPath="$PROJECT_DIR$/partials/solutions.html" />
     </list>
     <ignored path="etype.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403164193975" ignored="false" />
-    <file path="/etype.main.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400483647740" ignored="false" />
-    <file path="/etype.fonts.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399881464522" ignored="false" />
+    <file path="/index.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403179559152" ignored="false" />
+    <file path="/etype.main.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403683961473" ignored="false" />
+    <file path="/etype.fonts.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403682908340" ignored="false" />
     <file path="/partial1.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399880170916" ignored="false" />
     <file path="/fonts.css" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399880280363" ignored="false" />
     <file path="/test.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399880769157" ignored="false" />
     <file path="/config.rb" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399881058283" ignored="false" />
-    <file path="/home.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403163960647" ignored="false" />
+    <file path="/home.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403683725153" ignored="false" />
     <file path="/app.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402984133189" ignored="false" />
     <file path="/controllers.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403163757679" ignored="false" />
-    <file path="/defaults.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403157676170" ignored="false" />
+    <file path="/defaults.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403685085991" ignored="false" />
     <file path="/etype.main.css" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1399990077872" ignored="false" />
-    <file path="/etype.home.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403156993078" ignored="false" />
+    <file path="/etype.home.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403684173678" ignored="false" />
     <file path="/about.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403163258464" ignored="false" />
     <file path="/etype.about.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400074413116" ignored="false" />
-    <file path="/solutions.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403161279969" ignored="false" />
-    <file path="/etype.solutions.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402827033890" ignored="false" />
-    <file path="/Dummy.txt" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403099364947" ignored="false" />
-    <file path="/etype.services.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402997502313" ignored="false" />
+    <file path="/solutions.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403439380168" ignored="false" />
+    <file path="/etype.solutions.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403687784624" ignored="false" />
+    <file path="/Dummy.txt" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403689573685" ignored="false" />
+    <file path="/etype.services.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403685270740" ignored="false" />
     <file path="/services.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403157557018" ignored="false" />
     <file path="/smc.css" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400494615919" ignored="false" />
     <file path="/starStyle_yellow.css" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400507035399" ignored="false" />
     <file path="/Stars_param.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400571134804" ignored="false" />
     <file path="/starStyle_yellow_center.css" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1400511790222" ignored="false" />
-    <file path="/contactus.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402985566854" ignored="false" />
+    <file path="/contactus.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403443708576" ignored="false" />
     <file path="/etype.contactus.scss" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403000266565" ignored="false" />
     <file path="/solutions.eparliament.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402297354361" ignored="false" />
-    <file path="/services.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403162938816" ignored="false" />
+    <file path="/services.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403686024429" ignored="false" />
     <file path="/solutions.eCorporate.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403163361456" ignored="false" />
     <file path="/solutions.eproduction.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403163372213" ignored="false" />
-    <file path="/directives.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403156377174" ignored="false" />
-    <file path="/a.dummy" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403001169049" ignored="false" />
+    <file path="/directives.js" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403687384812" ignored="false" />
+    <file path="/a.dummy" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403682913630" ignored="false" />
     <file path="/index.php" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403004423928" ignored="false" />
     <file path="/LanguageSelect.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1402990141849" ignored="false" />
     <file path="/SolutionBadge.html" changelist="b270767b-2467-4298-8e5b-20b136e4e041" time="1403104476462" ignored="false" />
@@ -127,7 +113,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="68" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.29584774">
+            <state line="93" column="48" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.7167431">
               <folding />
             </state>
           </provider>
@@ -136,26 +122,40 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="26" selection-start="2144" selection-end="2144" vertical-scroll-proportion="-12.607142">
+            <state line="69" column="27" selection-start="2681" selection-end="2681" vertical-scroll-proportion="-21.428572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/about.html">
+      <file leaf-file-name="etype.services.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/etype.services.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="6" selection-start="4961" selection-end="4961" vertical-scroll-proportion="-67.17857">
+            <state line="74" column="32" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <file leaf-file-name="etype.solutions.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/etype.solutions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="-3.04">
+            <state line="104" column="23" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabSelect.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/directives/TabSelect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="38" selection-start="1949" selection-end="1949" vertical-scroll-proportion="-2.7142856">
+              <folding>
+                <element signature="tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0" expanded="false" />
+                <element signature="tag#div#3;tag#div#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,7 +163,43 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="108" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="5" column="33" selection-start="84" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="18" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaults.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/defaults.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="35" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etype.contactus.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/etype.contactus.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="31" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etype.home.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/etype.home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="163" column="0" selection-start="2987" selection-end="3235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,21 +223,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/directives.js" />
-        <option value="$PROJECT_DIR$/sass/etype.home.scss" />
-        <option value="$PROJECT_DIR$/partials/directives/SolutionBadge.html" />
-        <option value="$PROJECT_DIR$/partials/services.html" />
-        <option value="$PROJECT_DIR$/sass/defaults.scss" />
-        <option value="$PROJECT_DIR$/partials/solutions.html" />
-        <option value="$PROJECT_DIR$/partials/about.html" />
-        <option value="$PROJECT_DIR$/partials/solutions.elaw.html" />
-        <option value="$PROJECT_DIR$/partials/solutions.eparliament.html" />
-        <option value="$PROJECT_DIR$/partials/solutions.eCorporate.html" />
-        <option value="$PROJECT_DIR$/partials/solutions.eproduction.html" />
-        <option value="$PROJECT_DIR$/partials/solutions.eschool.html" />
-        <option value="$PROJECT_DIR$/js/services.js" />
-        <option value="$PROJECT_DIR$/partials/home.html" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
+        <option value="$PROJECT_DIR$/partials/about.html" />
+        <option value="$PROJECT_DIR$/partials/solutions.html" />
+        <option value="$PROJECT_DIR$/partials/contactus.html" />
+        <option value="$PROJECT_DIR$/sass/etype.contactus.scss" />
+        <option value="$PROJECT_DIR$/sass/etype.fonts.scss" />
+        <option value="$PROJECT_DIR$/partials/home.html" />
+        <option value="$PROJECT_DIR$/sass/etype.main.scss" />
+        <option value="$PROJECT_DIR$/sass/etype.home.scss" />
+        <option value="$PROJECT_DIR$/sass/defaults.scss" />
+        <option value="$PROJECT_DIR$/sass/etype.services.scss" />
+        <option value="$PROJECT_DIR$/partials/directives/TabSelect.html" />
+        <option value="$PROJECT_DIR$/js/services.js" />
+        <option value="$PROJECT_DIR$/sass/etype.solutions.scss" />
+        <option value="$PROJECT_DIR$/js/directives.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -258,6 +294,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,7 +337,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="srv" />
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,13 +383,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,11 +485,11 @@
       <recent name="C:\wamp\www\etype\app\sass" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\etype\app\stylesheets\fonts" />
       <recent name="C:\wamp\www\etype\app\lib" />
       <recent name="C:\wamp\www\etype\app\sass" />
       <recent name="C:\wamp\www\etype\app\stylesheets" />
       <recent name="C:\wamp\www\etype\app\lib\compass-recipes" />
-      <recent name="C:\wamp\www\etype\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -601,17 +659,29 @@
       <created>1403003267894</created>
       <updated>1403003267894</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="page title service, fixes, home page solutions badges directives">
+      <created>1403164996290</created>
+      <updated>1403164996290</updated>
+    </task>
+    <task id="LOCAL-00009" summary="museoslab font added">
+      <created>1403689504211</created>
+      <updated>1403689504211</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fonts and images">
+      <created>1403689575685</created>
+      <updated>1403689575685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="112" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32694355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34078807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,6 +691,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,7 +703,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -678,7 +748,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="solutions pages, contact form, services form, fixes, new directives and services" />
+    <option name="LAST_COMMIT_MESSAGE" value="fonts and images" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -696,6 +766,9 @@
     <MESSAGE value="added pages" />
     <MESSAGE value="routing changes, capital initials for paragraphs, new solutions pages, new bg elements," />
     <MESSAGE value="solutions pages, contact form, services form, fixes, new directives and services" />
+    <MESSAGE value="page title service, fixes, home page solutions badges directives" />
+    <MESSAGE value="museoslab font added" />
+    <MESSAGE value="fonts and images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -705,117 +778,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/etype.home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="44" selection-start="1493" selection-end="1516" vertical-scroll-proportion="-3.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/etype.solutions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="537" selection-end="564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="280" selection-end="280" vertical-scroll-proportion="0.20810515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/solutions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/solutions.elaw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/solutions.eparliament.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.41694915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/solutions.eCorporate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/solutions.eproduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/directives/SolutionBadge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="159" selection-start="365" selection-end="365" vertical-scroll-proportion="-2.7142856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/solutions.eschool.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="399" selection-end="399" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="6" selection-start="4961" selection-end="4961" vertical-scroll-proportion="-67.17857">
+        <state line="54" column="74" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="30" selection-start="3079" selection-end="3079" vertical-scroll-proportion="-16.892857">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="81" column="77" selection-start="3806" selection-end="3806" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/home.html">
+    <entry file="file://$PROJECT_DIR$/partials/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="26" selection-start="2144" selection-end="2144" vertical-scroll-proportion="-12.607142">
+        <state line="42" column="27" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="399" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="69" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="0" selection-start="2987" selection-end="3235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.contactus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="31" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/defaults.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="35" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="32" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="108" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+        <state line="5" column="33" selection-start="84" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/partials/directives/TabSelect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="-3.04">
+        <state line="45" column="38" selection-start="1949" selection-end="1949" vertical-scroll-proportion="-2.7142856">
+          <folding>
+            <element signature="tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/etype.solutions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="23" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="27" selection-start="2681" selection-end="2681" vertical-scroll-proportion="-21.428572">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="68" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.29584774">
+        <state line="93" column="48" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.7167431">
           <folding />
         </state>
       </provider>
