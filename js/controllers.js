@@ -3,7 +3,7 @@
 angular.module('eTypeWebsite.controllers', ['ngAnimate'])
 
 
-  .controller('MainCtrl', ['$scope', '$location', 'dataService', '$anchorScroll', 'pageTitle', function($scope, $location, dataService, $anchorScroll, pageTitle){
+  .controller('MainCtrl', ['$scope', '$route', '$location', 'dataService', '$anchorScroll', 'pageTitle', function($scope, $route, $location, dataService, $anchorScroll, pageTitle){
 
 
         $scope.websiteName = dataService.websiteName;
@@ -20,6 +20,10 @@ angular.module('eTypeWebsite.controllers', ['ngAnimate'])
             $location.path(page.navURL);
 
         };
+
+        $scope.reloadRoute = function() {
+            $route.reload();
+        }
 
         $scope.getTitle = function() {
            return pageTitle.title();

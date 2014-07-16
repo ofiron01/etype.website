@@ -1,12 +1,14 @@
 /*============= FONTS ==================*/
 /*============= COLORS ==================*/
 /*============= LAYOUT ==================*/
-.container { width: 980px; padding: 0; }
+.container { width: 980px; padding: 0; font-family: "MuseoSlab"; /*font-size: 16px;*/ }
 
 /*============= DEFAULTS ================*/
 html, body { overflow-x: hidden; }
 
 h2 { text-align: center; }
+
+a[ng-click] { cursor: pointer; }
 
 /*============= MIXINS ==================*/
 /*============= HELPERS ==================*/
