@@ -92,6 +92,20 @@ div.footer {
       }
     }
 
+    div.footer-contact-details {
+      /*jjf*/
+      padding-top:65px;
+      font-size:16px;
+      font-family: $MUSEO_SLAB;
+
+      span.footer-bullet {
+        color: $FOOTER_YELLOW;
+        font-size: 14px;
+
+      }
+
+    }
+
     div.footer-note {
       padding:40px 0 7px 0;
       text-align: center;
